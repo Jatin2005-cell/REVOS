@@ -16,7 +16,7 @@ origins = [
     "http://127.0.0.1:3000",
     "http://localhost:3001",
     "http://127.0.0.1:3001",
-    "https://your-app.vercel.app",  # Production URL
+    "https://revos-silk.vercel.app/",  # Production URL
 ]
 
 app.add_middleware(
