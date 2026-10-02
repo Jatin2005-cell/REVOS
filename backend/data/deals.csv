@@ -1,0 +1,501 @@
+id,name,amount,stage,probability,close_date,created_date,owner,product,source,currency,close_date_pushed_count,discount_requested,legal_review_started,is_closed,is_won,account_id,contact_id
+1,Growthloop Inc — RevOS Pro,1638037.0,Proposal,50,2026-09-28,2026-05-24,Rep_5,RevOS Analytics,Inbound,INR,3,0.0,False,False,False,7,18
+2,Zenithops Inc — RevOS API,1363741.0,Discovery,10,2026-08-08,2026-04-13,Rep_5,RevOS Pro,Outbound,INR,0,11.5,False,False,False,26,77
+3,Maplesoft Inc — RevOS Analytics,6909300.0,Negotiation,75,2026-10-14,2026-06-16,Rep_5,RevOS API,Partner,INR,3,14.4,True,False,False,39,111
+4,Windrose Inc — RevOS API,2070948.0,Negotiation,75,2026-11-07,2026-07-16,Rep_2,RevOS Starter,Inbound,INR,0,0.0,False,False,False,49,141
+5,Edgeflux Inc — RevOS Pro,6904933.0,Discovery,10,2026-12-13,2026-07-10,Rep_4,RevOS Enterprise,Partner,INR,2,0.0,False,False,False,31,92
+6,Metaverse Inc — RevOS Starter,2271933.0,Discovery,10,2026-12-06,2026-07-26,Rep_2,RevOS Pro,Outbound,INR,1,0.0,False,False,False,13,36
+7,Maplesoft Inc — RevOS Enterprise,3339566.0,Proposal,50,2026-10-26,2026-05-25,Rep_9,RevOS API,Event,INR,2,0.0,False,False,False,39,112
+8,Maplesoft Inc — RevOS Starter,401746.0,Closed Won,100,2026-10-16,2026-07-01,Rep_10,RevOS API,Inbound,INR,0,0.0,False,True,True,39,111
+9,Raptorx Inc — RevOS API,2369621.0,Negotiation,75,2027-01-08,2026-08-08,Rep_7,RevOS Analytics,Inbound,INR,3,0.0,True,False,False,18,49
+10,Ultradev Inc — RevOS Analytics,4064658.0,Closed Won,100,2026-09-19,2026-06-29,Rep_9,RevOS Pro,Event,INR,0,3.8,True,True,True,21,58
+11,Xyphorai Inc — RevOS Analytics,4432230.0,Closed Won,100,2027-01-13,2026-09-21,Rep_1,RevOS Starter,Partner,INR,0,0.0,False,True,True,50,145
+12,Orchidtech Inc — RevOS Analytics,2446627.0,Negotiation,75,2026-10-24,2026-07-31,Rep_2,RevOS Pro,Partner,INR,1,0.0,False,False,False,41,116
+13,Truepathsys Inc — RevOS Analytics,7320853.0,Discovery,10,2026-08-09,2026-06-09,Rep_2,RevOS Starter,Event,INR,1,0.0,False,False,False,20,57
+14,Stratosai Inc — RevOS Analytics,4499868.0,Proposal,50,2026-09-02,2026-05-21,Rep_4,RevOS API,Partner,INR,1,0.0,False,False,False,19,54
+15,Infoedge Inc — RevOS Enterprise,220009.0,Qualification,25,2026-09-28,2026-06-07,Rep_10,RevOS API,Event,INR,2,0.0,False,False,False,9,22
+16,Corelogic Inc — RevOS Starter,7476248.0,Proposal,50,2026-11-17,2026-06-28,Rep_4,RevOS API,Event,INR,3,11.6,False,False,False,29,86
+17,Clearstack Inc — RevOS Starter,7725631.0,Negotiation,75,2026-09-17,2026-06-16,Rep_9,RevOS API,Referral,INR,1,0.0,False,False,False,3,8
+18,Corelogic Inc — RevOS Starter,6993277.0,Proposal,50,2026-07-11,2026-05-28,Rep_2,RevOS Analytics,Referral,INR,1,0.0,False,False,False,29,84
+19,Signalops Inc — RevOS Analytics,5089034.0,Negotiation,75,2026-11-28,2026-06-29,Rep_9,RevOS Pro,Partner,INR,3,9.5,False,False,False,45,128
+20,Omnilayer Inc — RevOS Enterprise,1497645.0,Proposal,50,2026-12-16,2026-08-27,Rep_1,RevOS Pro,Referral,INR,0,0.0,False,False,False,15,39
+21,Stratosai Inc — RevOS Starter,5518043.0,Proposal,50,2026-12-02,2026-08-15,Rep_3,RevOS Starter,Inbound,INR,3,0.0,False,False,False,19,54
+22,Yieldmax Inc — RevOS Analytics,5175656.0,Proposal,50,2026-06-26,2026-04-25,Rep_5,RevOS Pro,Event,INR,1,0.0,False,False,False,25,71
+23,Relaystack Inc — RevOS Enterprise,7703827.0,Discovery,10,2026-11-11,2026-06-25,Rep_8,RevOS Enterprise,Outbound,INR,2,0.0,False,False,False,44,125
+24,Edgeflux Inc — RevOS Analytics,2502800.0,Qualification,25,2026-08-17,2026-04-28,Rep_5,RevOS Pro,Partner,INR,2,0.0,False,False,False,31,91
+25,Xyphorai Inc — RevOS Enterprise,7252411.0,Closed Lost,0,2026-07-21,2026-04-19,Rep_4,RevOS API,Referral,INR,0,2.9,False,True,False,50,146
+26,Quantleap Inc — RevOS Pro,957879.0,Negotiation,75,2026-08-18,2026-04-06,Rep_5,RevOS Analytics,Inbound,INR,1,0.0,False,False,False,17,48
+27,Finlabs Inc — RevOS Enterprise,6334800.0,Qualification,25,2026-08-07,2026-06-07,Rep_9,RevOS API,Referral,INR,1,0.0,False,False,False,6,16
+28,Quantleap Inc — RevOS Pro,1098324.0,Closed Lost,0,2026-09-19,2026-07-08,Rep_3,RevOS Starter,Event,INR,0,0.0,False,True,False,17,47
+29,Junctionai Inc — RevOS Enterprise,1163992.0,Discovery,10,2026-08-12,2026-06-12,Rep_5,RevOS API,Event,INR,2,0.0,False,False,False,36,105
+30,Xeronova Inc — RevOS Pro,4958641.0,Negotiation,75,2026-08-07,2026-05-24,Rep_8,RevOS Enterprise,Event,INR,2,0.7,True,False,False,24,67
+31,Fusionware Inc — RevOS API,3093890.0,Discovery,10,2026-08-04,2026-05-07,Rep_7,RevOS API,Outbound,INR,3,0.0,False,False,False,32,93
+32,Pulsenet Inc — RevOS Enterprise,455187.0,Closed Won,100,2026-07-08,2026-04-17,Rep_4,RevOS Analytics,Event,INR,0,0.0,False,True,True,42,118
+33,Growthloop Inc — RevOS Pro,2351875.0,Proposal,50,2026-06-23,2026-04-09,Rep_8,RevOS Pro,Outbound,INR,0,0.0,False,False,False,7,19
+34,Maplesoft Inc — RevOS Pro,4603708.0,Discovery,10,2026-09-16,2026-06-28,Rep_9,RevOS Starter,Partner,INR,1,13.0,False,False,False,39,111
+35,Vantagepoint Inc — RevOS Starter,7875419.0,Negotiation,75,2026-07-01,2026-04-22,Rep_9,RevOS Enterprise,Outbound,INR,2,13.0,True,False,False,22,60
+36,Wavefront Inc — RevOS Analytics,1188717.0,Proposal,50,2026-11-22,2026-09-17,Rep_9,RevOS Pro,Inbound,INR,2,0.0,False,False,False,23,64
+37,Xyphorai Inc — RevOS API,538247.0,Proposal,50,2026-12-06,2026-08-25,Rep_5,RevOS Analytics,Inbound,INR,1,7.2,False,False,False,50,145
+38,Zenithops Inc — RevOS API,830166.0,Negotiation,75,2026-08-13,2026-05-19,Rep_3,RevOS Pro,Outbound,INR,0,9.5,True,False,False,26,77
+39,Ultradev Inc — RevOS Analytics,4143298.0,Closed Lost,0,2026-07-15,2026-05-09,Rep_2,RevOS Pro,Partner,INR,0,0.0,False,True,False,21,59
+40,Nexatech Inc — RevOS Analytics,3737291.0,Proposal,50,2026-11-24,2026-07-25,Rep_2,RevOS Enterprise,Event,INR,2,0.0,False,False,False,14,38
+41,Quantleap Inc — RevOS Pro,6687821.0,Closed Lost,0,2026-06-30,2026-05-23,Rep_7,RevOS Pro,Referral,INR,0,0.0,False,True,False,17,47
+42,Junctionai Inc — RevOS Enterprise,1153404.0,Proposal,50,2026-09-13,2026-05-01,Rep_7,RevOS Pro,Referral,INR,2,0.0,False,False,False,36,104
+43,Wavefront Inc — RevOS Enterprise,6808744.0,Proposal,50,2026-10-16,2026-07-29,Rep_9,RevOS Enterprise,Inbound,INR,3,0.0,False,False,False,23,63
+44,Keystone Inc — RevOS API,5464818.0,Closed Won,100,2026-08-18,2026-05-01,Rep_1,RevOS API,Referral,INR,0,4.1,False,True,True,37,106
+45,Vantagepoint Inc — RevOS Pro,1306622.0,Discovery,10,2026-12-20,2026-08-16,Rep_2,RevOS API,Outbound,INR,3,0.0,False,False,False,22,61
+46,Datavault Inc — RevOS Starter,610349.0,Qualification,25,2026-09-13,2026-07-04,Rep_10,RevOS Pro,Inbound,INR,0,9.9,False,False,False,30,89
+47,Fusionware Inc — RevOS Enterprise,3553326.0,Proposal,50,2026-09-09,2026-07-14,Rep_10,RevOS Analytics,Partner,INR,0,0.0,False,False,False,32,95
+48,Clearstack Inc — RevOS Starter,2551071.0,Proposal,50,2026-05-28,2026-04-21,Rep_3,RevOS Enterprise,Referral,INR,0,0.0,False,False,False,3,7
+49,Acmetech Inc — RevOS API,5688636.0,Negotiation,75,2026-11-07,2026-08-08,Rep_9,RevOS Enterprise,Inbound,INR,3,0.0,False,False,False,1,2
+50,Brightspark Inc — RevOS Analytics,3354498.0,Proposal,50,2026-12-29,2026-09-02,Rep_5,RevOS Pro,Event,INR,3,4.9,False,False,False,28,82
+51,Novabridge Inc — RevOS Starter,6786978.0,Closed Won,100,2026-08-01,2026-06-21,Rep_7,RevOS API,Event,INR,0,0.0,True,True,True,40,114
+52,Truepathsys Inc — RevOS API,5139152.0,Qualification,25,2026-08-18,2026-06-28,Rep_9,RevOS Starter,Referral,INR,0,0.0,False,False,False,20,57
+53,Pulsenet Inc — RevOS Pro,4898712.0,Qualification,25,2026-10-25,2026-08-15,Rep_3,RevOS Analytics,Event,INR,1,0.0,False,False,False,42,118
+54,Windrose Inc — RevOS Enterprise,7773590.0,Negotiation,75,2026-09-29,2026-04-30,Rep_3,RevOS Analytics,Inbound,INR,2,0.0,False,False,False,49,143
+55,Raptorx Inc — RevOS Enterprise,493337.0,Proposal,50,2026-12-23,2026-09-03,Rep_5,RevOS Pro,Inbound,INR,3,0.0,False,False,False,18,49
+56,Globecast Inc — RevOS Starter,6516564.0,Proposal,50,2026-08-09,2026-05-03,Rep_6,RevOS API,Event,INR,3,0.0,False,False,False,33,97
+57,Deltaforce Inc — RevOS Analytics,2132401.0,Discovery,10,2026-08-12,2026-06-26,Rep_8,RevOS API,Partner,INR,1,0.0,False,False,False,4,11
+58,Xeronova Inc — RevOS API,2839264.0,Closed Won,100,2026-09-04,2026-06-14,Rep_1,RevOS Enterprise,Inbound,INR,0,0.0,True,True,True,24,68
+59,Yieldmax Inc — RevOS Starter,835716.0,Qualification,25,2026-08-03,2026-04-06,Rep_6,RevOS Enterprise,Event,INR,1,10.6,False,False,False,25,72
+60,Finlabs Inc — RevOS API,5682081.0,Proposal,50,2026-07-08,2026-04-10,Rep_2,RevOS Analytics,Partner,INR,1,0.0,False,False,False,6,16
+61,Xeronova Inc — RevOS Starter,1967036.0,Qualification,25,2026-11-09,2026-07-29,Rep_3,RevOS Pro,Referral,INR,3,0.0,False,False,False,24,68
+62,Growthloop Inc — RevOS API,1465528.0,Negotiation,75,2026-06-28,2026-04-16,Rep_3,RevOS Analytics,Inbound,INR,3,0.0,False,False,False,7,18
+63,Prismdata Inc — RevOS Analytics,7731654.0,Negotiation,75,2026-08-08,2026-05-30,Rep_4,RevOS Enterprise,Partner,INR,1,0.0,True,False,False,16,44
+64,Stratosai Inc — RevOS Enterprise,4916375.0,Proposal,50,2026-08-14,2026-06-06,Rep_1,RevOS Analytics,Referral,INR,1,0.0,False,False,False,19,54
+65,Growthloop Inc — RevOS Analytics,4204151.0,Qualification,25,2026-12-16,2026-08-11,Rep_2,RevOS Starter,Event,INR,3,0.0,False,False,False,7,18
+66,Betaworks Inc — RevOS Enterprise,7957298.0,Discovery,10,2026-08-14,2026-05-16,Rep_4,RevOS Pro,Referral,INR,1,0.0,False,False,False,2,4
+67,Terraflow Inc — RevOS Starter,6672140.0,Negotiation,75,2026-11-01,2026-08-17,Rep_8,RevOS Analytics,Partner,INR,2,1.2,True,False,False,46,131
+68,Jetscale Inc — RevOS Enterprise,1067258.0,Closed Lost,0,2026-07-25,2026-04-19,Rep_4,RevOS Enterprise,Inbound,INR,0,6.3,False,True,False,10,28
+69,Novabridge Inc — RevOS Starter,4219931.0,Discovery,10,2026-08-31,2026-05-17,Rep_3,RevOS Enterprise,Event,INR,0,5.3,False,False,False,40,114
+70,Keystone Inc — RevOS API,7636549.0,Qualification,25,2026-12-22,2026-08-31,Rep_9,RevOS API,Partner,INR,2,13.1,False,False,False,37,107
+71,Clearstack Inc — RevOS Enterprise,6350456.0,Closed Lost,0,2026-08-20,2026-07-19,Rep_4,RevOS Pro,Partner,INR,0,0.0,False,True,False,3,9
+72,Vantagepoint Inc — RevOS Analytics,6277312.0,Discovery,10,2026-08-06,2026-05-05,Rep_8,RevOS Starter,Outbound,INR,1,11.6,False,False,False,22,60
+73,Datavault Inc — RevOS API,7480294.0,Qualification,25,2026-11-04,2026-09-10,Rep_7,RevOS API,Event,INR,0,11.3,False,False,False,30,87
+74,Metaverse Inc — RevOS Enterprise,1170905.0,Proposal,50,2027-01-22,2026-09-09,Rep_7,RevOS Analytics,Event,INR,2,0.0,False,False,False,13,36
+75,Yieldmax Inc — RevOS API,3065306.0,Closed Lost,0,2026-09-12,2026-05-17,Rep_5,RevOS Pro,Event,INR,0,9.0,False,True,False,25,72
+76,Logicworks Inc — RevOS Analytics,3678143.0,Qualification,25,2026-12-03,2026-09-01,Rep_3,RevOS Analytics,Referral,INR,2,0.0,False,False,False,12,33
+77,Uplinkai Inc — RevOS Analytics,5435234.0,Negotiation,75,2026-08-06,2026-06-02,Rep_6,RevOS API,Outbound,INR,0,0.0,True,False,False,47,134
+78,Maplesoft Inc — RevOS API,3186264.0,Discovery,10,2026-11-27,2026-09-04,Rep_1,RevOS API,Outbound,INR,2,0.0,False,False,False,39,112
+79,Xeronova Inc — RevOS Enterprise,3062210.0,Proposal,50,2026-12-29,2026-09-02,Rep_5,RevOS Starter,Inbound,INR,1,2.8,False,False,False,24,68
+80,Hexacore Inc — RevOS Analytics,2230260.0,Closed Won,100,2026-10-24,2026-08-22,Rep_4,RevOS API,Referral,INR,0,0.0,False,True,True,34,101
+81,Metaverse Inc — RevOS Pro,5764285.0,Discovery,10,2026-12-20,2026-09-03,Rep_6,RevOS Enterprise,Inbound,INR,1,0.0,False,False,False,13,35
+82,Stratosai Inc — RevOS Starter,3019639.0,Closed Won,100,2026-06-02,2026-04-11,Rep_2,RevOS Starter,Outbound,INR,0,7.4,True,True,True,19,54
+83,Keystone Inc — RevOS Analytics,2612468.0,Proposal,50,2026-06-18,2026-05-03,Rep_9,RevOS Analytics,Event,INR,0,0.0,False,False,False,37,107
+84,Ecomsprint Inc — RevOS API,3833499.0,Closed Lost,0,2026-05-19,2026-04-10,Rep_6,RevOS Starter,Partner,INR,0,0.0,False,True,False,5,12
+85,Logicworks Inc — RevOS Enterprise,1484325.0,Proposal,50,2026-11-02,2026-09-07,Rep_4,RevOS Enterprise,Partner,INR,1,0.0,False,False,False,12,32
+86,Finlabs Inc — RevOS API,2562032.0,Qualification,25,2026-07-24,2026-05-03,Rep_2,RevOS API,Outbound,INR,1,0.0,False,False,False,6,16
+87,Luminance Inc — RevOS Pro,7406652.0,Qualification,25,2026-09-09,2026-04-15,Rep_1,RevOS Pro,Inbound,INR,2,0.0,False,False,False,38,109
+88,Xyphorai Inc — RevOS Analytics,5184131.0,Qualification,25,2026-12-28,2026-07-30,Rep_9,RevOS Enterprise,Referral,INR,3,0.0,False,False,False,50,146
+89,Relaystack Inc — RevOS Analytics,3628923.0,Qualification,25,2026-12-30,2026-09-03,Rep_8,RevOS Starter,Referral,INR,0,0.0,False,False,False,44,126
+90,Ultradev Inc — RevOS API,3090214.0,Negotiation,75,2026-10-03,2026-06-25,Rep_2,RevOS Enterprise,Outbound,INR,1,0.0,True,False,False,21,59
+91,Prismdata Inc — RevOS Starter,7708950.0,Discovery,10,2026-10-26,2026-07-09,Rep_6,RevOS API,Referral,INR,3,2.4,False,False,False,16,43
+92,Globecast Inc — RevOS API,7572816.0,Proposal,50,2026-10-06,2026-07-05,Rep_8,RevOS Starter,Outbound,INR,0,0.0,False,False,False,33,97
+93,Deltaforce Inc — RevOS Pro,4386188.0,Qualification,25,2026-09-15,2026-04-22,Rep_7,RevOS Starter,Referral,INR,3,0.0,False,False,False,4,10
+94,Windrose Inc — RevOS Pro,4515139.0,Proposal,50,2026-07-29,2026-06-11,Rep_7,RevOS API,Event,INR,1,0.0,False,False,False,49,143
+95,Raptorx Inc — RevOS API,7896944.0,Discovery,10,2026-12-24,2026-08-28,Rep_6,RevOS Starter,Outbound,INR,2,0.0,False,False,False,18,49
+96,Zenithops Inc — RevOS API,3764511.0,Discovery,10,2026-12-12,2026-08-17,Rep_9,RevOS Starter,Referral,INR,3,0.0,False,False,False,26,74
+97,Ultradev Inc — RevOS API,6660657.0,Proposal,50,2026-07-24,2026-04-17,Rep_8,RevOS API,Referral,INR,2,0.0,False,False,False,21,58
+98,Betaworks Inc — RevOS Pro,7210383.0,Qualification,25,2026-12-23,2026-08-24,Rep_10,RevOS Analytics,Referral,INR,2,0.0,False,False,False,2,4
+99,Xyphorai Inc — RevOS API,4289012.0,Proposal,50,2027-01-17,2026-09-08,Rep_7,RevOS Starter,Outbound,INR,3,14.2,False,False,False,50,146
+100,Hyperion Inc — RevOS Analytics,5585902.0,Discovery,10,2026-10-07,2026-07-03,Rep_9,RevOS API,Event,INR,1,0.0,False,False,False,8,20
+101,Vertexsys Inc — RevOS Analytics,3931294.0,Negotiation,75,2026-08-10,2026-05-12,Rep_6,RevOS Starter,Event,INR,2,0.0,True,False,False,48,136
+102,Wavefront Inc — RevOS Enterprise,2528293.0,Negotiation,75,2026-11-02,2026-08-03,Rep_5,RevOS Starter,Event,INR,2,0.0,True,False,False,23,65
+103,Uplinkai Inc — RevOS Enterprise,7845252.0,Qualification,25,2026-10-24,2026-04-28,Rep_3,RevOS Enterprise,Inbound,INR,3,10.7,False,False,False,47,134
+104,Wavefront Inc — RevOS API,4400908.0,Negotiation,75,2026-08-07,2026-05-22,Rep_5,RevOS Starter,Inbound,INR,1,0.0,True,False,False,23,66
+105,Prismdata Inc — RevOS Enterprise,981544.0,Negotiation,75,2026-07-13,2026-05-09,Rep_8,RevOS Pro,Outbound,INR,1,8.3,False,False,False,16,43
+106,Alphacloud Inc — RevOS Pro,5238004.0,Proposal,50,2026-10-28,2026-08-01,Rep_10,RevOS Starter,Partner,INR,2,0.0,False,False,False,27,81
+107,Clearstack Inc — RevOS Enterprise,4063994.0,Proposal,50,2026-11-06,2026-08-07,Rep_1,RevOS Pro,Referral,INR,3,0.0,False,False,False,3,7
+108,Growthloop Inc — RevOS API,7520772.0,Qualification,25,2026-09-19,2026-04-10,Rep_8,RevOS Enterprise,Outbound,INR,3,0.0,False,False,False,7,19
+109,Vantagepoint Inc — RevOS Enterprise,5945620.0,Negotiation,75,2026-06-17,2026-04-09,Rep_10,RevOS Starter,Outbound,INR,1,0.0,False,False,False,22,60
+110,Zenithops Inc — RevOS Analytics,7857145.0,Proposal,50,2026-11-19,2026-08-30,Rep_6,RevOS Starter,Inbound,INR,0,3.5,False,False,False,26,77
+111,Windrose Inc — RevOS Enterprise,4668443.0,Closed Lost,0,2026-10-18,2026-07-06,Rep_6,RevOS Starter,Inbound,INR,0,0.0,False,True,False,49,142
+112,Datavault Inc — RevOS Enterprise,1115843.0,Qualification,25,2026-10-19,2026-05-16,Rep_6,RevOS API,Outbound,INR,2,2.0,False,False,False,30,89
+113,Jetscale Inc — RevOS Analytics,4484029.0,Negotiation,75,2026-08-28,2026-04-19,Rep_9,RevOS Starter,Outbound,INR,3,0.0,True,False,False,10,27
+114,Finlabs Inc — RevOS API,6664438.0,Proposal,50,2026-07-30,2026-06-21,Rep_4,RevOS API,Partner,INR,0,4.9,False,False,False,6,17
+115,Hexacore Inc — RevOS Analytics,7211337.0,Discovery,10,2026-12-06,2026-07-31,Rep_1,RevOS Analytics,Outbound,INR,3,0.0,False,False,False,34,101
+116,Datavault Inc — RevOS Starter,6568335.0,Proposal,50,2026-09-08,2026-07-05,Rep_10,RevOS Pro,Inbound,INR,3,0.0,False,False,False,30,87
+117,Signalops Inc — RevOS Starter,2439308.0,Proposal,50,2026-11-04,2026-09-06,Rep_3,RevOS Analytics,Referral,INR,3,0.0,False,False,False,45,127
+118,Yieldmax Inc — RevOS API,5525297.0,Closed Won,100,2026-09-03,2026-06-17,Rep_3,RevOS Enterprise,Inbound,INR,0,8.1,True,True,True,25,73
+119,Uplinkai Inc — RevOS API,5453299.0,Closed Won,100,2026-11-23,2026-09-16,Rep_7,RevOS API,Event,INR,0,0.0,True,True,True,47,133
+120,Wavefront Inc — RevOS Pro,6175217.0,Qualification,25,2026-11-14,2026-08-24,Rep_4,RevOS Starter,Inbound,INR,3,0.5,False,False,False,23,64
+121,Maplesoft Inc — RevOS Pro,4410127.0,Qualification,25,2026-12-30,2026-09-10,Rep_3,RevOS API,Referral,INR,3,13.7,False,False,False,39,111
+122,Keystone Inc — RevOS API,1317431.0,Proposal,50,2026-10-11,2026-07-01,Rep_4,RevOS Analytics,Referral,INR,2,8.4,False,False,False,37,107
+123,Luminance Inc — RevOS Analytics,7783864.0,Negotiation,75,2026-10-04,2026-06-04,Rep_9,RevOS Enterprise,Event,INR,3,0.0,True,False,False,38,109
+124,Logicworks Inc — RevOS Pro,3811596.0,Qualification,25,2026-10-21,2026-07-26,Rep_9,RevOS Analytics,Event,INR,1,0.0,False,False,False,12,34
+125,Infoedge Inc — RevOS Enterprise,3708337.0,Qualification,25,2026-10-11,2026-07-31,Rep_2,RevOS API,Outbound,INR,0,5.7,False,False,False,9,25
+126,Maplesoft Inc — RevOS Starter,5437314.0,Closed Won,100,2026-11-17,2026-08-04,Rep_8,RevOS Starter,Referral,INR,0,0.0,False,True,True,39,111
+127,Nexatech Inc — RevOS API,2092227.0,Closed Lost,0,2026-11-21,2026-08-22,Rep_4,RevOS Analytics,Outbound,INR,0,0.0,False,True,False,14,37
+128,Xyphorai Inc — RevOS API,2240181.0,Proposal,50,2026-09-20,2026-05-08,Rep_8,RevOS Analytics,Inbound,INR,2,0.0,False,False,False,50,145
+129,Uplinkai Inc — RevOS API,3428655.0,Negotiation,75,2026-09-20,2026-07-02,Rep_4,RevOS Starter,Inbound,INR,2,14.0,True,False,False,47,135
+130,Alphacloud Inc — RevOS Analytics,6700229.0,Qualification,25,2026-10-14,2026-06-29,Rep_9,RevOS Enterprise,Referral,INR,3,0.0,False,False,False,27,80
+131,Fusionware Inc — RevOS Starter,6400809.0,Negotiation,75,2026-09-02,2026-05-19,Rep_3,RevOS API,Event,INR,1,13.3,False,False,False,32,95
+132,Deltaforce Inc — RevOS Analytics,6161843.0,Closed Won,100,2026-12-26,2026-09-02,Rep_3,RevOS Starter,Inbound,INR,0,0.0,True,True,True,4,10
+133,Globecast Inc — RevOS Pro,4005264.0,Proposal,50,2026-09-25,2026-04-16,Rep_9,RevOS API,Event,INR,3,7.9,False,False,False,33,97
+134,Raptorx Inc — RevOS Starter,951248.0,Discovery,10,2026-07-25,2026-06-03,Rep_4,RevOS Starter,Partner,INR,0,0.0,False,False,False,18,51
+135,Wavefront Inc — RevOS Starter,4607017.0,Negotiation,75,2026-12-29,2026-09-01,Rep_5,RevOS Pro,Inbound,INR,3,5.7,True,False,False,23,65
+136,Deltaforce Inc — RevOS API,6318135.0,Negotiation,75,2027-01-22,2026-08-31,Rep_2,RevOS API,Inbound,INR,3,13.5,False,False,False,4,10
+137,Keystone Inc — RevOS Pro,4435639.0,Qualification,25,2027-02-08,2026-09-02,Rep_3,RevOS Enterprise,Inbound,INR,2,0.0,False,False,False,37,107
+138,Luminance Inc — RevOS API,4598874.0,Negotiation,75,2026-08-08,2026-06-12,Rep_7,RevOS API,Referral,INR,2,0.0,False,False,False,38,109
+139,Signalops Inc — RevOS Pro,2010723.0,Discovery,10,2026-07-31,2026-06-25,Rep_6,RevOS API,Partner,INR,0,0.0,False,False,False,45,129
+140,Zenithops Inc — RevOS Analytics,2975327.0,Discovery,10,2026-11-08,2026-07-14,Rep_7,RevOS Starter,Partner,INR,3,0.0,False,False,False,26,76
+141,Finlabs Inc — RevOS Starter,3164000.0,Negotiation,75,2026-10-31,2026-09-03,Rep_7,RevOS Enterprise,Referral,INR,2,0.1,True,False,False,6,16
+142,Xeronova Inc — RevOS API,4544483.0,Discovery,10,2026-12-03,2026-08-30,Rep_7,RevOS Pro,Inbound,INR,3,8.3,False,False,False,24,68
+143,Maplesoft Inc — RevOS Pro,3224837.0,Closed Won,100,2026-11-24,2026-09-18,Rep_9,RevOS Starter,Partner,INR,0,0.0,False,True,True,39,112
+144,Kinetiq Inc — RevOS Enterprise,1504218.0,Qualification,25,2026-10-24,2026-07-15,Rep_7,RevOS Enterprise,Event,INR,1,0.0,False,False,False,11,29
+145,Xeronova Inc — RevOS Analytics,5010017.0,Closed Lost,0,2026-07-16,2026-04-14,Rep_2,RevOS Starter,Referral,INR,0,5.9,False,True,False,24,68
+146,Novabridge Inc — RevOS API,3558807.0,Closed Won,100,2026-09-23,2026-06-29,Rep_3,RevOS Enterprise,Referral,INR,0,0.0,False,True,True,40,114
+147,Edgeflux Inc — RevOS Analytics,5620671.0,Qualification,25,2026-09-26,2026-06-12,Rep_10,RevOS Starter,Referral,INR,2,0.0,False,False,False,31,92
+148,Zenithops Inc — RevOS Pro,6187420.0,Discovery,10,2026-07-11,2026-04-30,Rep_8,RevOS Starter,Event,INR,1,0.0,False,False,False,26,76
+149,Signalops Inc — RevOS Enterprise,1285597.0,Closed Won,100,2026-10-03,2026-06-09,Rep_4,RevOS Enterprise,Outbound,INR,0,0.0,False,True,True,45,127
+150,Ecomsprint Inc — RevOS Analytics,4368066.0,Closed Lost,0,2026-09-03,2026-05-22,Rep_9,RevOS Pro,Referral,INR,0,0.0,False,True,False,5,13
+151,Innov8 Inc — RevOS Pro,5246599.0,Discovery,10,2026-11-29,2026-07-20,Rep_10,RevOS Analytics,Referral,INR,2,0.0,False,False,False,35,102
+152,Brightspark Inc — RevOS Analytics,3118133.0,Discovery,10,2026-09-27,2026-07-17,Rep_10,RevOS API,Outbound,INR,1,0.0,False,False,False,28,82
+153,Betaworks Inc — RevOS Starter,7537274.0,Discovery,10,2026-07-17,2026-06-07,Rep_6,RevOS Enterprise,Referral,INR,0,0.0,False,False,False,2,4
+154,Nexatech Inc — RevOS Pro,723960.0,Qualification,25,2026-12-28,2026-08-28,Rep_2,RevOS Pro,Referral,INR,3,0.0,False,False,False,14,38
+155,Relaystack Inc — RevOS Enterprise,4504900.0,Closed Lost,0,2026-10-25,2026-07-21,Rep_9,RevOS Analytics,Event,INR,0,6.1,False,True,False,44,125
+156,Logicworks Inc — RevOS Starter,4990034.0,Negotiation,75,2026-08-22,2026-06-03,Rep_8,RevOS API,Event,INR,0,0.0,False,False,False,12,32
+157,Nexatech Inc — RevOS Starter,7001439.0,Negotiation,75,2026-12-17,2026-09-05,Rep_6,RevOS Enterprise,Outbound,INR,0,0.0,True,False,False,14,38
+158,Fusionware Inc — RevOS API,4968206.0,Closed Lost,0,2026-10-17,2026-07-03,Rep_2,RevOS Enterprise,Referral,INR,0,0.0,False,True,False,32,95
+159,Novabridge Inc — RevOS Starter,861065.0,Closed Won,100,2026-10-23,2026-07-07,Rep_6,RevOS Pro,Outbound,INR,0,0.0,True,True,True,40,113
+160,Signalops Inc — RevOS Starter,3192938.0,Proposal,50,2026-10-06,2026-06-06,Rep_8,RevOS API,Outbound,INR,1,0.0,False,False,False,45,127
+161,Fusionware Inc — RevOS Pro,3000506.0,Discovery,10,2026-09-28,2026-07-03,Rep_8,RevOS Starter,Outbound,INR,0,0.0,False,False,False,32,94
+162,Junctionai Inc — RevOS API,1504577.0,Proposal,50,2026-09-21,2026-05-19,Rep_1,RevOS Starter,Referral,INR,3,3.4,False,False,False,36,105
+163,Stratosai Inc — RevOS API,1090812.0,Negotiation,75,2026-08-01,2026-04-30,Rep_6,RevOS API,Inbound,INR,0,0.0,True,False,False,19,53
+164,Nexatech Inc — RevOS Analytics,7994639.0,Discovery,10,2026-07-17,2026-04-07,Rep_5,RevOS Enterprise,Inbound,INR,2,0.0,False,False,False,14,38
+165,Hyperion Inc — RevOS Analytics,5743881.0,Qualification,25,2026-09-29,2026-04-24,Rep_3,RevOS API,Outbound,INR,2,0.0,False,False,False,8,20
+166,Nexatech Inc — RevOS Enterprise,7836201.0,Proposal,50,2026-07-24,2026-05-08,Rep_5,RevOS API,Referral,INR,1,0.0,False,False,False,14,37
+167,Globecast Inc — RevOS Starter,5315991.0,Discovery,10,2026-08-24,2026-06-08,Rep_4,RevOS Starter,Referral,INR,2,0.0,False,False,False,33,96
+168,Windrose Inc — RevOS Analytics,3430956.0,Proposal,50,2026-09-18,2026-04-27,Rep_2,RevOS Pro,Event,INR,2,0.0,False,False,False,49,143
+169,Raptorx Inc — RevOS Pro,6238255.0,Proposal,50,2026-07-30,2026-05-20,Rep_8,RevOS Enterprise,Inbound,INR,0,0.0,False,False,False,18,51
+170,Zenithops Inc — RevOS Enterprise,2718348.0,Closed Lost,0,2026-10-30,2026-07-29,Rep_6,RevOS API,Partner,INR,0,12.8,False,True,False,26,75
+171,Vantagepoint Inc — RevOS Starter,1169050.0,Negotiation,75,2026-11-12,2026-09-10,Rep_8,RevOS Analytics,Inbound,INR,3,0.0,True,False,False,22,62
+172,Signalops Inc — RevOS Enterprise,7475259.0,Closed Won,100,2026-08-25,2026-07-06,Rep_2,RevOS Enterprise,Referral,INR,0,10.0,False,True,True,45,127
+173,Deltaforce Inc — RevOS Starter,942433.0,Negotiation,75,2026-10-16,2026-07-24,Rep_8,RevOS Pro,Outbound,INR,0,0.0,True,False,False,4,11
+174,Corelogic Inc — RevOS Pro,1230966.0,Discovery,10,2026-10-03,2026-06-26,Rep_4,RevOS Analytics,Inbound,INR,3,0.0,False,False,False,29,84
+175,Growthloop Inc — RevOS Starter,6544270.0,Qualification,25,2026-10-19,2026-07-07,Rep_3,RevOS Pro,Partner,INR,3,0.0,False,False,False,7,18
+176,Novabridge Inc — RevOS Analytics,3411337.0,Proposal,50,2026-12-07,2026-07-29,Rep_4,RevOS Pro,Inbound,INR,1,1.8,False,False,False,40,113
+177,Uplinkai Inc — RevOS Pro,2360348.0,Proposal,50,2026-08-23,2026-06-04,Rep_4,RevOS API,Partner,INR,1,0.0,False,False,False,47,135
+178,Maplesoft Inc — RevOS API,4238443.0,Negotiation,75,2027-01-27,2026-09-15,Rep_4,RevOS Analytics,Referral,INR,2,0.0,False,False,False,39,112
+179,Prismdata Inc — RevOS Pro,7132051.0,Proposal,50,2026-10-23,2026-07-22,Rep_6,RevOS Enterprise,Outbound,INR,0,0.0,False,False,False,16,44
+180,Keystone Inc — RevOS Pro,4781435.0,Proposal,50,2026-11-06,2026-08-08,Rep_5,RevOS Starter,Inbound,INR,0,0.0,False,False,False,37,107
+181,Zenithops Inc — RevOS API,3337764.0,Negotiation,75,2026-09-30,2026-05-16,Rep_9,RevOS API,Outbound,INR,3,4.6,True,False,False,26,76
+182,Nexatech Inc — RevOS Starter,5649672.0,Proposal,50,2026-09-26,2026-06-13,Rep_1,RevOS Starter,Inbound,INR,0,0.0,False,False,False,14,37
+183,Hyperion Inc — RevOS Starter,298787.0,Negotiation,75,2026-11-23,2026-09-07,Rep_1,RevOS Starter,Event,INR,1,0.0,True,False,False,8,21
+184,Uplinkai Inc — RevOS Enterprise,7219200.0,Qualification,25,2026-10-23,2026-08-20,Rep_7,RevOS Enterprise,Partner,INR,0,10.7,False,False,False,47,134
+185,Keystone Inc — RevOS API,4096958.0,Discovery,10,2026-09-14,2026-05-28,Rep_3,RevOS Enterprise,Outbound,INR,2,1.5,False,False,False,37,108
+186,Keystone Inc — RevOS Pro,6897774.0,Negotiation,75,2026-10-28,2026-07-25,Rep_4,RevOS Pro,Event,INR,0,0.0,False,False,False,37,108
+187,Logicworks Inc — RevOS Enterprise,2136453.0,Proposal,50,2026-07-11,2026-04-07,Rep_5,RevOS Pro,Partner,INR,1,0.0,False,False,False,12,31
+188,Globecast Inc — RevOS Enterprise,7040532.0,Qualification,25,2026-07-10,2026-05-12,Rep_5,RevOS Enterprise,Inbound,INR,3,0.0,False,False,False,33,96
+189,Acmetech Inc — RevOS Analytics,3072534.0,Qualification,25,2026-07-21,2026-04-30,Rep_4,RevOS API,Outbound,INR,1,14.0,False,False,False,1,2
+190,Betaworks Inc — RevOS Analytics,211404.0,Proposal,50,2026-08-08,2026-04-12,Rep_5,RevOS Pro,Outbound,INR,0,0.0,False,False,False,2,3
+191,Prismdata Inc — RevOS Starter,542422.0,Proposal,50,2026-11-09,2026-09-06,Rep_9,RevOS Analytics,Referral,INR,2,0.0,False,False,False,16,44
+192,Vertexsys Inc — RevOS Pro,4816787.0,Proposal,50,2026-07-25,2026-05-15,Rep_7,RevOS Starter,Outbound,INR,3,12.8,False,False,False,48,136
+193,Zenithops Inc — RevOS API,1261672.0,Qualification,25,2026-09-11,2026-07-14,Rep_2,RevOS Starter,Inbound,INR,0,7.0,False,False,False,26,76
+194,Alphacloud Inc — RevOS Pro,2267062.0,Proposal,50,2026-11-22,2026-07-30,Rep_2,RevOS Starter,Referral,INR,2,0.0,False,False,False,27,78
+195,Signalops Inc — RevOS Enterprise,2136107.0,Discovery,10,2026-08-17,2026-06-30,Rep_7,RevOS API,Inbound,INR,0,0.0,False,False,False,45,129
+196,Quantleap Inc — RevOS Starter,3803937.0,Discovery,10,2026-09-13,2026-06-10,Rep_2,RevOS Pro,Inbound,INR,1,0.0,False,False,False,17,46
+197,Omnilayer Inc — RevOS Pro,4771726.0,Qualification,25,2026-08-27,2026-06-11,Rep_1,RevOS Pro,Outbound,INR,0,0.0,False,False,False,15,40
+198,Corelogic Inc — RevOS API,594974.0,Discovery,10,2026-08-13,2026-06-29,Rep_7,RevOS Analytics,Event,INR,0,10.2,False,False,False,29,84
+199,Logicworks Inc — RevOS Pro,7090706.0,Qualification,25,2026-11-06,2026-08-05,Rep_10,RevOS API,Partner,INR,2,4.4,False,False,False,12,33
+200,Alphacloud Inc — RevOS API,1755771.0,Discovery,10,2026-10-12,2026-07-12,Rep_4,RevOS API,Inbound,INR,1,0.0,False,False,False,27,81
+201,Terraflow Inc — RevOS Pro,2309398.0,Proposal,50,2026-08-28,2026-05-20,Rep_6,RevOS API,Outbound,INR,2,12.2,False,False,False,46,131
+202,Raptorx Inc — RevOS Starter,6181369.0,Closed Won,100,2026-08-29,2026-05-24,Rep_3,RevOS Pro,Outbound,INR,0,0.0,True,True,True,18,49
+203,Vertexsys Inc — RevOS Starter,7494607.0,Negotiation,75,2026-12-13,2026-07-27,Rep_3,RevOS Starter,Partner,INR,3,0.0,False,False,False,48,136
+204,Wavefront Inc — RevOS Analytics,7597274.0,Negotiation,75,2026-10-19,2026-06-23,Rep_9,RevOS Enterprise,Outbound,INR,1,0.0,True,False,False,23,63
+205,Omnilayer Inc — RevOS Starter,4990251.0,Discovery,10,2026-08-02,2026-05-22,Rep_6,RevOS Starter,Referral,INR,2,2.2,False,False,False,15,40
+206,Terraflow Inc — RevOS Analytics,5695396.0,Negotiation,75,2026-07-25,2026-05-10,Rep_10,RevOS Pro,Referral,INR,0,0.0,True,False,False,46,130
+207,Kinetiq Inc — RevOS API,5716027.0,Negotiation,75,2026-09-28,2026-05-20,Rep_10,RevOS Enterprise,Outbound,INR,2,0.0,False,False,False,11,30
+208,Yieldmax Inc — RevOS API,214024.0,Negotiation,75,2026-09-10,2026-07-08,Rep_7,RevOS API,Inbound,INR,1,4.8,False,False,False,25,72
+209,Novabridge Inc — RevOS Starter,6013678.0,Negotiation,75,2026-12-09,2026-08-26,Rep_6,RevOS Enterprise,Outbound,INR,1,0.0,False,False,False,40,113
+210,Terraflow Inc — RevOS Enterprise,728799.0,Proposal,50,2026-09-28,2026-07-16,Rep_2,RevOS Pro,Inbound,INR,1,0.0,False,False,False,46,131
+211,Uplinkai Inc — RevOS API,3153958.0,Closed Lost,0,2026-09-09,2026-06-08,Rep_7,RevOS Pro,Event,INR,0,0.0,False,True,False,47,135
+212,Keystone Inc — RevOS Pro,6433718.0,Negotiation,75,2026-10-08,2026-07-26,Rep_5,RevOS Pro,Referral,INR,3,1.6,True,False,False,37,108
+213,Yieldmax Inc — RevOS Analytics,7885154.0,Negotiation,75,2026-07-16,2026-05-04,Rep_1,RevOS Analytics,Outbound,INR,2,0.0,True,False,False,25,71
+214,Deltaforce Inc — RevOS Starter,2395880.0,Qualification,25,2026-11-28,2026-08-04,Rep_2,RevOS Pro,Event,INR,2,0.0,False,False,False,4,10
+215,Fusionware Inc — RevOS API,6626399.0,Discovery,10,2026-12-14,2026-09-21,Rep_8,RevOS Starter,Inbound,INR,0,2.6,False,False,False,32,93
+216,Stratosai Inc — RevOS Enterprise,4014955.0,Proposal,50,2026-12-12,2026-08-23,Rep_2,RevOS API,Event,INR,3,13.3,False,False,False,19,53
+217,Xeronova Inc — RevOS Enterprise,1964690.0,Proposal,50,2026-11-12,2026-07-16,Rep_10,RevOS Pro,Outbound,INR,3,0.0,False,False,False,24,67
+218,Qubitlabs Inc — RevOS API,4799866.0,Discovery,10,2026-11-28,2026-06-25,Rep_1,RevOS Analytics,Partner,INR,3,0.0,False,False,False,43,121
+219,Innov8 Inc — RevOS Pro,3279474.0,Proposal,50,2026-11-06,2026-07-23,Rep_9,RevOS API,Partner,INR,2,0.0,False,False,False,35,103
+220,Relaystack Inc — RevOS Starter,6505994.0,Discovery,10,2026-07-31,2026-05-30,Rep_1,RevOS Analytics,Inbound,INR,1,0.0,False,False,False,44,125
+221,Brightspark Inc — RevOS Enterprise,4841372.0,Closed Lost,0,2026-06-01,2026-04-14,Rep_2,RevOS Pro,Event,INR,0,0.0,False,True,False,28,82
+222,Junctionai Inc — RevOS API,7013037.0,Closed Won,100,2026-08-07,2026-05-11,Rep_10,RevOS API,Event,INR,0,2.2,True,True,True,36,105
+223,Luminance Inc — RevOS API,2431524.0,Closed Lost,0,2026-06-11,2026-04-30,Rep_6,RevOS Analytics,Referral,INR,0,0.0,False,True,False,38,109
+224,Fusionware Inc — RevOS API,1322051.0,Negotiation,75,2026-11-29,2026-09-12,Rep_7,RevOS Pro,Event,INR,2,0.0,True,False,False,32,95
+225,Prismdata Inc — RevOS Enterprise,6575610.0,Negotiation,75,2026-09-30,2026-07-15,Rep_5,RevOS Enterprise,Event,INR,0,0.0,False,False,False,16,43
+226,Omnilayer Inc — RevOS Pro,3450827.0,Qualification,25,2026-09-15,2026-05-31,Rep_4,RevOS Analytics,Outbound,INR,2,0.0,False,False,False,15,40
+227,Alphacloud Inc — RevOS API,2626760.0,Negotiation,75,2026-08-02,2026-06-18,Rep_7,RevOS Starter,Partner,INR,1,0.0,True,False,False,27,81
+228,Metaverse Inc — RevOS Enterprise,594362.0,Closed Won,100,2026-08-23,2026-07-20,Rep_4,RevOS Enterprise,Referral,INR,0,0.0,True,True,True,13,35
+229,Orchidtech Inc — RevOS Analytics,3679607.0,Negotiation,75,2026-11-24,2026-07-22,Rep_10,RevOS API,Referral,INR,3,0.0,False,False,False,41,115
+230,Quantleap Inc — RevOS Starter,3215212.0,Closed Won,100,2026-11-03,2026-08-29,Rep_10,RevOS Starter,Outbound,INR,0,0.0,False,True,True,17,48
+231,Raptorx Inc — RevOS Pro,1550965.0,Proposal,50,2027-01-04,2026-09-19,Rep_4,RevOS Enterprise,Partner,INR,1,0.0,False,False,False,18,52
+232,Truepathsys Inc — RevOS Enterprise,7184767.0,Closed Lost,0,2026-06-14,2026-04-10,Rep_8,RevOS Enterprise,Outbound,INR,0,0.0,False,True,False,20,57
+233,Relaystack Inc — RevOS API,5249269.0,Proposal,50,2027-01-23,2026-09-20,Rep_5,RevOS Enterprise,Inbound,INR,2,0.0,False,False,False,44,126
+234,Vantagepoint Inc — RevOS Starter,1369449.0,Negotiation,75,2026-10-04,2026-07-13,Rep_1,RevOS API,Event,INR,2,0.0,False,False,False,22,61
+235,Uplinkai Inc — RevOS Pro,3228544.0,Negotiation,75,2026-10-18,2026-07-08,Rep_10,RevOS API,Outbound,INR,3,0.0,False,False,False,47,132
+236,Relaystack Inc — RevOS API,6794270.0,Closed Won,100,2026-09-24,2026-06-22,Rep_3,RevOS Enterprise,Inbound,INR,0,0.0,False,True,True,44,126
+237,Uplinkai Inc — RevOS Starter,1933577.0,Closed Lost,0,2026-10-19,2026-06-28,Rep_5,RevOS Analytics,Referral,INR,0,0.0,False,True,False,47,133
+238,Luminance Inc — RevOS API,5148295.0,Proposal,50,2026-11-20,2026-08-22,Rep_10,RevOS Pro,Event,INR,0,0.0,False,False,False,38,110
+239,Globecast Inc — RevOS Starter,3422237.0,Closed Won,100,2026-09-21,2026-06-16,Rep_3,RevOS Starter,Referral,INR,0,0.0,True,True,True,33,96
+240,Datavault Inc — RevOS Starter,5122056.0,Qualification,25,2026-10-21,2026-08-06,Rep_6,RevOS Pro,Inbound,INR,3,0.0,False,False,False,30,88
+241,Nexatech Inc — RevOS Analytics,4992942.0,Proposal,50,2026-11-12,2026-08-12,Rep_7,RevOS Analytics,Event,INR,0,0.0,False,False,False,14,37
+242,Clearstack Inc — RevOS Starter,5478636.0,Negotiation,75,2026-12-05,2026-09-18,Rep_4,RevOS Enterprise,Referral,INR,1,5.8,True,False,False,3,7
+243,Kinetiq Inc — RevOS API,5877089.0,Closed Won,100,2026-09-12,2026-07-07,Rep_9,RevOS Enterprise,Event,INR,0,0.0,False,True,True,11,29
+244,Vantagepoint Inc — RevOS Starter,1981663.0,Proposal,50,2026-10-15,2026-08-04,Rep_4,RevOS Pro,Partner,INR,3,0.0,False,False,False,22,61
+245,Hyperion Inc — RevOS Pro,4370921.0,Negotiation,75,2027-01-06,2026-09-12,Rep_10,RevOS Pro,Inbound,INR,2,0.0,True,False,False,8,21
+246,Signalops Inc — RevOS Starter,5674572.0,Proposal,50,2026-08-28,2026-06-16,Rep_1,RevOS Enterprise,Event,INR,2,0.0,False,False,False,45,127
+247,Qubitlabs Inc — RevOS Pro,5806377.0,Negotiation,75,2026-11-08,2026-08-17,Rep_5,RevOS Pro,Inbound,INR,0,0.0,False,False,False,43,123
+248,Xyphorai Inc — RevOS Starter,3396099.0,Closed Won,100,2026-10-15,2026-08-01,Rep_1,RevOS API,Event,INR,0,0.0,False,True,True,50,145
+249,Edgeflux Inc — RevOS API,1061361.0,Qualification,25,2027-01-11,2026-09-18,Rep_8,RevOS Starter,Inbound,INR,0,0.0,False,False,False,31,92
+250,Ecomsprint Inc — RevOS Enterprise,7911594.0,Closed Won,100,2026-06-08,2026-04-10,Rep_5,RevOS Analytics,Inbound,INR,0,2.6,True,True,True,5,12
+251,Stratosai Inc — RevOS Pro,1104028.0,Closed Won,100,2026-09-25,2026-07-03,Rep_1,RevOS Starter,Outbound,INR,0,0.0,False,True,True,19,54
+252,Novabridge Inc — RevOS Pro,2873237.0,Closed Won,100,2026-11-14,2026-08-29,Rep_7,RevOS Analytics,Event,INR,0,5.8,False,True,True,40,114
+253,Alphacloud Inc — RevOS Analytics,7307569.0,Discovery,10,2026-10-26,2026-09-06,Rep_10,RevOS Analytics,Outbound,INR,0,0.0,False,False,False,27,79
+254,Xyphorai Inc — RevOS Analytics,7123233.0,Negotiation,75,2026-12-12,2026-08-19,Rep_1,RevOS Pro,Referral,INR,3,0.0,True,False,False,50,145
+255,Relaystack Inc — RevOS API,5568285.0,Closed Lost,0,2026-10-01,2026-06-27,Rep_2,RevOS Analytics,Outbound,INR,0,0.0,False,True,False,44,125
+256,Qubitlabs Inc — RevOS Starter,5218510.0,Discovery,10,2026-08-18,2026-05-02,Rep_9,RevOS Analytics,Event,INR,0,0.0,False,False,False,43,124
+257,Ecomsprint Inc — RevOS Analytics,1937111.0,Qualification,25,2026-09-02,2026-06-29,Rep_7,RevOS Starter,Inbound,INR,0,0.0,False,False,False,5,13
+258,Keystone Inc — RevOS Pro,7849232.0,Discovery,10,2026-08-28,2026-05-17,Rep_2,RevOS Analytics,Event,INR,2,8.2,False,False,False,37,107
+259,Finlabs Inc — RevOS Enterprise,5437500.0,Closed Won,100,2026-06-26,2026-05-01,Rep_6,RevOS Pro,Outbound,INR,0,0.0,True,True,True,6,16
+260,Xyphorai Inc — RevOS Starter,960009.0,Proposal,50,2026-07-15,2026-04-06,Rep_1,RevOS Enterprise,Referral,INR,3,0.0,False,False,False,50,146
+261,Stratosai Inc — RevOS Analytics,6610342.0,Negotiation,75,2026-11-27,2026-09-10,Rep_2,RevOS Enterprise,Partner,INR,3,1.8,False,False,False,19,54
+262,Nexatech Inc — RevOS Pro,6105765.0,Closed Won,100,2026-10-16,2026-08-04,Rep_10,RevOS Pro,Event,INR,0,0.0,True,True,True,14,38
+263,Globecast Inc — RevOS Analytics,578859.0,Closed Lost,0,2026-12-26,2026-09-20,Rep_10,RevOS Analytics,Partner,INR,0,0.0,False,True,False,33,96
+264,Logicworks Inc — RevOS Enterprise,4884259.0,Negotiation,75,2026-11-22,2026-08-20,Rep_9,RevOS Analytics,Event,INR,3,0.0,False,False,False,12,32
+265,Windrose Inc — RevOS Analytics,1240300.0,Qualification,25,2026-10-28,2026-06-26,Rep_10,RevOS API,Referral,INR,3,0.0,False,False,False,49,141
+266,Junctionai Inc — RevOS Enterprise,1835759.0,Negotiation,75,2026-08-31,2026-05-03,Rep_6,RevOS Starter,Outbound,INR,1,0.0,False,False,False,36,105
+267,Ultradev Inc — RevOS API,6033376.0,Negotiation,75,2026-09-20,2026-05-01,Rep_5,RevOS Analytics,Inbound,INR,3,0.0,True,False,False,21,58
+268,Jetscale Inc — RevOS Starter,5530445.0,Negotiation,75,2026-10-15,2026-08-01,Rep_1,RevOS Enterprise,Outbound,INR,1,0.0,True,False,False,10,26
+269,Corelogic Inc — RevOS Enterprise,4185194.0,Negotiation,75,2026-07-28,2026-05-01,Rep_1,RevOS Analytics,Event,INR,3,0.0,False,False,False,29,84
+270,Relaystack Inc — RevOS API,2160461.0,Closed Lost,0,2026-10-09,2026-09-08,Rep_8,RevOS Starter,Referral,INR,0,0.0,False,True,False,44,126
+271,Innov8 Inc — RevOS Pro,7870936.0,Negotiation,75,2026-11-05,2026-08-03,Rep_3,RevOS Starter,Partner,INR,3,0.6,True,False,False,35,102
+272,Quantleap Inc — RevOS Starter,5735577.0,Qualification,25,2026-09-14,2026-07-18,Rep_1,RevOS Starter,Referral,INR,2,0.0,False,False,False,17,46
+273,Xyphorai Inc — RevOS Enterprise,4666881.0,Negotiation,75,2026-08-08,2026-04-05,Rep_2,RevOS Enterprise,Partner,INR,3,2.8,True,False,False,50,146
+274,Globecast Inc — RevOS Starter,1925345.0,Proposal,50,2026-07-27,2026-05-07,Rep_6,RevOS Enterprise,Referral,INR,0,14.3,False,False,False,33,96
+275,Novabridge Inc — RevOS Analytics,5417720.0,Closed Lost,0,2026-05-09,2026-04-08,Rep_4,RevOS API,Partner,INR,0,0.6,False,True,False,40,114
+276,Ultradev Inc — RevOS Enterprise,4413851.0,Closed Won,100,2026-11-10,2026-08-23,Rep_1,RevOS API,Referral,INR,0,0.0,True,True,True,21,59
+277,Fusionware Inc — RevOS Pro,842294.0,Qualification,25,2026-07-01,2026-04-08,Rep_3,RevOS API,Partner,INR,2,1.0,False,False,False,32,93
+278,Qubitlabs Inc — RevOS Analytics,4394483.0,Closed Won,100,2026-07-18,2026-06-05,Rep_2,RevOS Starter,Inbound,INR,0,0.0,True,True,True,43,122
+279,Finlabs Inc — RevOS Enterprise,6608631.0,Discovery,10,2026-10-28,2026-07-19,Rep_7,RevOS Analytics,Event,INR,0,0.0,False,False,False,6,14
+280,Brightspark Inc — RevOS Pro,5818228.0,Discovery,10,2026-11-28,2026-08-22,Rep_10,RevOS Pro,Inbound,INR,0,0.0,False,False,False,28,83
+281,Globecast Inc — RevOS Analytics,6169139.0,Qualification,25,2026-10-21,2026-07-06,Rep_7,RevOS Analytics,Inbound,INR,0,0.0,False,False,False,33,96
+282,Innov8 Inc — RevOS Enterprise,1323789.0,Discovery,10,2026-10-24,2026-06-13,Rep_1,RevOS API,Partner,INR,2,0.6,False,False,False,35,102
+283,Keystone Inc — RevOS Enterprise,6036713.0,Proposal,50,2026-07-03,2026-05-04,Rep_4,RevOS Analytics,Partner,INR,2,2.8,False,False,False,37,108
+284,Novabridge Inc — RevOS API,6058126.0,Qualification,25,2026-11-29,2026-08-06,Rep_8,RevOS API,Inbound,INR,0,1.0,False,False,False,40,114
+285,Growthloop Inc — RevOS Starter,5436105.0,Negotiation,75,2026-08-18,2026-05-20,Rep_2,RevOS Enterprise,Partner,INR,2,2.9,True,False,False,7,18
+286,Vantagepoint Inc — RevOS Analytics,2667399.0,Negotiation,75,2026-07-21,2026-04-25,Rep_3,RevOS Pro,Referral,INR,2,3.3,False,False,False,22,62
+287,Brightspark Inc — RevOS Analytics,2786191.0,Closed Won,100,2026-12-12,2026-08-18,Rep_8,RevOS Analytics,Referral,INR,0,0.0,True,True,True,28,83
+288,Growthloop Inc — RevOS Enterprise,4401221.0,Negotiation,75,2026-11-26,2026-09-01,Rep_2,RevOS Pro,Inbound,INR,1,0.0,False,False,False,7,18
+289,Luminance Inc — RevOS API,7173090.0,Negotiation,75,2026-10-01,2026-07-29,Rep_8,RevOS Starter,Referral,INR,2,0.0,False,False,False,38,110
+290,Luminance Inc — RevOS Pro,3038151.0,Discovery,10,2026-08-19,2026-05-16,Rep_4,RevOS API,Outbound,INR,0,0.0,False,False,False,38,110
+291,Infoedge Inc — RevOS Enterprise,5909635.0,Qualification,25,2026-08-28,2026-04-30,Rep_1,RevOS Starter,Event,INR,1,4.0,False,False,False,9,25
+292,Omnilayer Inc — RevOS Pro,7359635.0,Negotiation,75,2026-09-07,2026-05-12,Rep_1,RevOS Enterprise,Inbound,INR,3,0.0,True,False,False,15,39
+293,Raptorx Inc — RevOS API,3152444.0,Proposal,50,2026-08-10,2026-04-29,Rep_2,RevOS API,Referral,INR,3,0.0,False,False,False,18,51
+294,Omnilayer Inc — RevOS API,4912846.0,Proposal,50,2026-11-27,2026-06-25,Rep_3,RevOS Analytics,Outbound,INR,3,7.7,False,False,False,15,42
+295,Raptorx Inc — RevOS Enterprise,1996701.0,Qualification,25,2026-10-27,2026-08-12,Rep_2,RevOS Analytics,Event,INR,0,0.0,False,False,False,18,50
+296,Luminance Inc — RevOS API,1197504.0,Negotiation,75,2026-07-17,2026-06-08,Rep_3,RevOS Starter,Partner,INR,1,8.6,True,False,False,38,109
+297,Quantleap Inc — RevOS Enterprise,5812469.0,Proposal,50,2026-09-24,2026-06-10,Rep_2,RevOS Starter,Event,INR,0,0.0,False,False,False,17,46
+298,Edgeflux Inc — RevOS Starter,4744640.0,Qualification,25,2026-10-11,2026-06-08,Rep_10,RevOS API,Referral,INR,1,10.3,False,False,False,31,92
+299,Datavault Inc — RevOS API,1778319.0,Qualification,25,2026-07-31,2026-06-15,Rep_7,RevOS Starter,Partner,INR,0,7.1,False,False,False,30,87
+300,Novabridge Inc — RevOS Analytics,1116628.0,Closed Won,100,2026-08-10,2026-05-08,Rep_3,RevOS API,Partner,INR,0,0.0,False,True,True,40,113
+301,Xyphorai Inc — RevOS API,538819.0,Negotiation,75,2026-09-11,2026-05-11,Rep_7,RevOS Starter,Event,INR,2,0.0,True,False,False,50,146
+302,Luminance Inc — RevOS Enterprise,6900615.0,Proposal,50,2026-11-07,2026-07-18,Rep_10,RevOS API,Event,INR,1,0.1,False,False,False,38,109
+303,Vertexsys Inc — RevOS Enterprise,5305460.0,Proposal,50,2026-11-26,2026-08-22,Rep_7,RevOS Enterprise,Inbound,INR,0,9.8,False,False,False,48,136
+304,Quantleap Inc — RevOS Analytics,4972669.0,Closed Won,100,2026-09-15,2026-06-05,Rep_4,RevOS Analytics,Partner,INR,0,0.0,True,True,True,17,47
+305,Xeronova Inc — RevOS Starter,5702858.0,Proposal,50,2026-11-03,2026-07-19,Rep_2,RevOS Starter,Event,INR,2,0.0,False,False,False,24,69
+306,Kinetiq Inc — RevOS Pro,3235009.0,Qualification,25,2026-08-23,2026-06-11,Rep_2,RevOS Starter,Event,INR,0,0.0,False,False,False,11,29
+307,Brightspark Inc — RevOS Analytics,494492.0,Discovery,10,2026-10-12,2026-07-27,Rep_7,RevOS API,Partner,INR,0,14.5,False,False,False,28,82
+308,Deltaforce Inc — RevOS API,5323697.0,Negotiation,75,2026-07-22,2026-06-01,Rep_5,RevOS Starter,Inbound,INR,1,0.0,True,False,False,4,10
+309,Signalops Inc — RevOS Starter,202241.0,Negotiation,75,2026-12-14,2026-09-12,Rep_2,RevOS Enterprise,Event,INR,1,0.0,True,False,False,45,127
+310,Luminance Inc — RevOS API,6672165.0,Proposal,50,2026-11-20,2026-09-04,Rep_6,RevOS Enterprise,Referral,INR,2,14.4,False,False,False,38,109
+311,Datavault Inc — RevOS Pro,1030427.0,Proposal,50,2026-10-22,2026-07-17,Rep_9,RevOS Enterprise,Referral,INR,3,0.0,False,False,False,30,90
+312,Globecast Inc — RevOS Analytics,3653595.0,Closed Won,100,2026-06-28,2026-04-27,Rep_10,RevOS Analytics,Outbound,INR,0,0.0,False,True,True,33,97
+313,Datavault Inc — RevOS Analytics,2210994.0,Closed Won,100,2026-12-14,2026-09-14,Rep_4,RevOS Starter,Referral,INR,0,0.0,True,True,True,30,90
+314,Innov8 Inc — RevOS Enterprise,3311659.0,Negotiation,75,2026-10-01,2026-07-16,Rep_2,RevOS API,Outbound,INR,2,0.0,True,False,False,35,102
+315,Keystone Inc — RevOS Enterprise,5936347.0,Qualification,25,2026-11-15,2026-08-04,Rep_4,RevOS Starter,Outbound,INR,1,0.0,False,False,False,37,107
+316,Novabridge Inc — RevOS Analytics,7655082.0,Qualification,25,2026-10-09,2026-08-25,Rep_10,RevOS Pro,Partner,INR,0,0.0,False,False,False,40,114
+317,Edgeflux Inc — RevOS API,1626401.0,Negotiation,75,2026-09-26,2026-05-18,Rep_5,RevOS Analytics,Outbound,INR,2,0.0,True,False,False,31,92
+318,Hexacore Inc — RevOS Starter,6911121.0,Proposal,50,2026-07-05,2026-05-06,Rep_8,RevOS Pro,Partner,INR,2,0.0,False,False,False,34,101
+319,Signalops Inc — RevOS Enterprise,3020498.0,Discovery,10,2026-10-16,2026-07-30,Rep_3,RevOS API,Referral,INR,0,7.1,False,False,False,45,127
+320,Novabridge Inc — RevOS Enterprise,5665558.0,Proposal,50,2026-08-22,2026-05-17,Rep_6,RevOS Analytics,Referral,INR,1,0.0,False,False,False,40,114
+321,Keystone Inc — RevOS Starter,2305603.0,Closed Lost,0,2026-09-05,2026-07-25,Rep_9,RevOS Analytics,Event,INR,0,12.0,False,True,False,37,106
+322,Vertexsys Inc — RevOS API,1248879.0,Proposal,50,2026-12-22,2026-09-19,Rep_9,RevOS Enterprise,Event,INR,3,0.0,False,False,False,48,137
+323,Junctionai Inc — RevOS Pro,2183460.0,Proposal,50,2026-10-07,2026-08-11,Rep_8,RevOS Enterprise,Referral,INR,1,0.0,False,False,False,36,104
+324,Junctionai Inc — RevOS API,5500770.0,Qualification,25,2026-09-01,2026-06-08,Rep_4,RevOS API,Partner,INR,2,0.0,False,False,False,36,105
+325,Innov8 Inc — RevOS Analytics,5450904.0,Closed Lost,0,2026-09-24,2026-07-11,Rep_8,RevOS Pro,Event,INR,0,0.0,False,True,False,35,102
+326,Datavault Inc — RevOS API,5123933.0,Closed Won,100,2026-06-23,2026-04-11,Rep_7,RevOS Pro,Inbound,INR,0,3.4,True,True,True,30,88
+327,Stratosai Inc — RevOS Enterprise,6929891.0,Negotiation,75,2026-10-11,2026-06-12,Rep_10,RevOS API,Event,INR,3,0.0,True,False,False,19,54
+328,Betaworks Inc — RevOS Pro,1501902.0,Negotiation,75,2026-06-06,2026-04-05,Rep_2,RevOS Pro,Event,INR,0,0.0,True,False,False,2,3
+329,Zenithops Inc — RevOS Analytics,7466399.0,Discovery,10,2026-06-04,2026-04-16,Rep_5,RevOS Starter,Outbound,INR,0,0.0,False,False,False,26,74
+330,Corelogic Inc — RevOS Enterprise,5375683.0,Discovery,10,2026-06-30,2026-05-10,Rep_8,RevOS Analytics,Partner,INR,0,0.0,False,False,False,29,86
+331,Junctionai Inc — RevOS API,6041510.0,Discovery,10,2026-08-17,2026-05-06,Rep_7,RevOS API,Partner,INR,3,0.0,False,False,False,36,105
+332,Wavefront Inc — RevOS Starter,3415190.0,Proposal,50,2026-12-18,2026-08-30,Rep_5,RevOS Pro,Inbound,INR,2,0.0,False,False,False,23,66
+333,Windrose Inc — RevOS Analytics,7392289.0,Qualification,25,2026-08-30,2026-05-24,Rep_5,RevOS Pro,Event,INR,0,0.0,False,False,False,49,141
+334,Maplesoft Inc — RevOS Analytics,7080864.0,Negotiation,75,2026-08-02,2026-05-04,Rep_7,RevOS Starter,Outbound,INR,1,0.0,False,False,False,39,111
+335,Yieldmax Inc — RevOS API,6163399.0,Qualification,25,2026-10-08,2026-06-05,Rep_5,RevOS Enterprise,Partner,INR,1,0.0,False,False,False,25,71
+336,Alphacloud Inc — RevOS Analytics,1060780.0,Closed Won,100,2026-09-22,2026-08-06,Rep_10,RevOS Analytics,Referral,INR,0,0.0,True,True,True,27,79
+337,Ultradev Inc — RevOS Starter,2400493.0,Qualification,25,2026-06-17,2026-05-08,Rep_8,RevOS Pro,Outbound,INR,1,0.2,False,False,False,21,58
+338,Nexatech Inc — RevOS Enterprise,6373113.0,Proposal,50,2026-09-25,2026-05-17,Rep_2,RevOS Starter,Inbound,INR,3,5.9,False,False,False,14,38
+339,Innov8 Inc — RevOS Starter,7801868.0,Qualification,25,2026-10-05,2026-07-19,Rep_7,RevOS Analytics,Outbound,INR,0,0.0,False,False,False,35,103
+340,Clearstack Inc — RevOS Enterprise,3235159.0,Proposal,50,2026-12-16,2026-08-28,Rep_6,RevOS Starter,Inbound,INR,1,0.0,False,False,False,3,7
+341,Junctionai Inc — RevOS Starter,7122653.0,Qualification,25,2026-06-30,2026-04-11,Rep_2,RevOS Starter,Event,INR,1,0.0,False,False,False,36,104
+342,Kinetiq Inc — RevOS Analytics,4732401.0,Proposal,50,2026-08-12,2026-06-12,Rep_10,RevOS Starter,Referral,INR,0,0.0,False,False,False,11,30
+343,Prismdata Inc — RevOS Starter,2973038.0,Proposal,50,2026-06-28,2026-04-16,Rep_9,RevOS Pro,Outbound,INR,0,0.0,False,False,False,16,43
+344,Ultradev Inc — RevOS Enterprise,5576150.0,Closed Won,100,2026-07-25,2026-06-01,Rep_3,RevOS Enterprise,Inbound,INR,0,0.0,True,True,True,21,59
+345,Stratosai Inc — RevOS Enterprise,5912739.0,Qualification,25,2026-12-06,2026-08-05,Rep_10,RevOS API,Outbound,INR,2,2.3,False,False,False,19,54
+346,Stratosai Inc — RevOS Pro,1647167.0,Proposal,50,2026-08-20,2026-05-28,Rep_10,RevOS Enterprise,Partner,INR,3,10.8,False,False,False,19,54
+347,Qubitlabs Inc — RevOS Analytics,2408407.0,Qualification,25,2026-09-10,2026-05-17,Rep_6,RevOS Pro,Inbound,INR,1,0.0,False,False,False,43,124
+348,Ecomsprint Inc — RevOS Pro,443935.0,Closed Won,100,2026-10-10,2026-08-19,Rep_8,RevOS Starter,Inbound,INR,0,9.6,True,True,True,5,12
+349,Fusionware Inc — RevOS Pro,1921638.0,Negotiation,75,2026-06-24,2026-04-23,Rep_1,RevOS Starter,Event,INR,0,0.0,False,False,False,32,95
+350,Datavault Inc — RevOS API,5012080.0,Proposal,50,2026-08-23,2026-06-07,Rep_1,RevOS Pro,Referral,INR,0,3.2,False,False,False,30,87
+351,Hexacore Inc — RevOS Starter,1706332.0,Discovery,10,2026-11-29,2026-07-24,Rep_10,RevOS Starter,Partner,INR,3,0.0,False,False,False,34,98
+352,Alphacloud Inc — RevOS Pro,5388890.0,Negotiation,75,2026-09-03,2026-04-27,Rep_3,RevOS Starter,Partner,INR,3,0.0,True,False,False,27,78
+353,Kinetiq Inc — RevOS Analytics,6789861.0,Closed Lost,0,2026-10-11,2026-07-03,Rep_7,RevOS Enterprise,Partner,INR,0,8.2,False,True,False,11,30
+354,Yieldmax Inc — RevOS Enterprise,5865244.0,Proposal,50,2026-09-14,2026-05-29,Rep_10,RevOS Pro,Partner,INR,3,13.4,False,False,False,25,72
+355,Acmetech Inc — RevOS Enterprise,6217880.0,Closed Lost,0,2026-10-07,2026-07-29,Rep_9,RevOS API,Partner,INR,0,0.0,False,True,False,1,2
+356,Keystone Inc — RevOS API,2266908.0,Discovery,10,2026-08-19,2026-05-27,Rep_4,RevOS Starter,Referral,INR,1,0.0,False,False,False,37,106
+357,Finlabs Inc — RevOS Analytics,3963759.0,Proposal,50,2026-10-13,2026-07-28,Rep_10,RevOS Pro,Partner,INR,2,0.0,False,False,False,6,17
+358,Clearstack Inc — RevOS Analytics,6573705.0,Discovery,10,2026-12-30,2026-09-07,Rep_2,RevOS Starter,Partner,INR,2,0.0,False,False,False,3,9
+359,Orchidtech Inc — RevOS Starter,4411452.0,Proposal,50,2026-10-10,2026-07-05,Rep_6,RevOS API,Outbound,INR,0,10.1,False,False,False,41,117
+360,Zenithops Inc — RevOS Analytics,3569098.0,Negotiation,75,2026-07-30,2026-04-27,Rep_3,RevOS Starter,Referral,INR,0,8.6,True,False,False,26,77
+361,Zenithops Inc — RevOS API,1251992.0,Discovery,10,2026-08-28,2026-05-16,Rep_4,RevOS Analytics,Event,INR,1,0.0,False,False,False,26,76
+362,Metaverse Inc — RevOS Pro,7408277.0,Qualification,25,2026-11-11,2026-07-15,Rep_2,RevOS Analytics,Event,INR,2,0.0,False,False,False,13,35
+363,Metaverse Inc — RevOS API,7903685.0,Qualification,25,2026-05-28,2026-04-07,Rep_8,RevOS API,Outbound,INR,2,0.0,False,False,False,13,36
+364,Omnilayer Inc — RevOS API,625397.0,Negotiation,75,2026-09-22,2026-08-13,Rep_3,RevOS Enterprise,Inbound,INR,0,0.0,False,False,False,15,40
+365,Truepathsys Inc — RevOS Enterprise,4462109.0,Proposal,50,2026-09-03,2026-06-29,Rep_9,RevOS Analytics,Partner,INR,1,0.0,False,False,False,20,56
+366,Jetscale Inc — RevOS Enterprise,1528493.0,Negotiation,75,2026-12-04,2026-09-17,Rep_4,RevOS API,Referral,INR,0,9.8,True,False,False,10,28
+367,Yieldmax Inc — RevOS Analytics,2481466.0,Negotiation,75,2026-06-21,2026-04-06,Rep_4,RevOS Analytics,Partner,INR,0,0.0,True,False,False,25,72
+368,Ultradev Inc — RevOS Analytics,1751227.0,Closed Won,100,2026-06-18,2026-05-08,Rep_9,RevOS Pro,Inbound,INR,0,7.9,True,True,True,21,59
+369,Zenithops Inc — RevOS API,7968756.0,Discovery,10,2026-09-26,2026-06-23,Rep_5,RevOS Pro,Referral,INR,2,0.0,False,False,False,26,75
+370,Betaworks Inc — RevOS Starter,7197967.0,Closed Lost,0,2026-09-13,2026-07-26,Rep_2,RevOS Analytics,Partner,INR,0,0.0,False,True,False,2,5
+371,Novabridge Inc — RevOS Enterprise,7295936.0,Proposal,50,2026-07-19,2026-04-28,Rep_8,RevOS API,Outbound,INR,3,2.1,False,False,False,40,113
+372,Innov8 Inc — RevOS Starter,7209417.0,Closed Won,100,2026-10-30,2026-07-04,Rep_7,RevOS Starter,Partner,INR,0,0.0,True,True,True,35,102
+373,Junctionai Inc — RevOS Analytics,7788589.0,Qualification,25,2026-10-29,2026-08-15,Rep_5,RevOS Analytics,Referral,INR,2,2.8,False,False,False,36,104
+374,Infoedge Inc — RevOS Starter,4622936.0,Discovery,10,2026-09-05,2026-04-18,Rep_10,RevOS Starter,Outbound,INR,2,0.0,False,False,False,9,23
+375,Wavefront Inc — RevOS Starter,5266635.0,Negotiation,75,2026-08-31,2026-05-22,Rep_7,RevOS Analytics,Event,INR,3,2.9,True,False,False,23,63
+376,Windrose Inc — RevOS Starter,5436445.0,Closed Lost,0,2026-08-05,2026-06-08,Rep_4,RevOS Pro,Outbound,INR,0,0.0,False,True,False,49,140
+377,Corelogic Inc — RevOS Pro,3357961.0,Proposal,50,2026-10-09,2026-06-30,Rep_10,RevOS Analytics,Referral,INR,1,0.0,False,False,False,29,86
+378,Vertexsys Inc — RevOS API,7967524.0,Proposal,50,2026-08-25,2026-05-29,Rep_9,RevOS Analytics,Inbound,INR,0,0.0,False,False,False,48,136
+379,Hexacore Inc — RevOS Analytics,6655444.0,Qualification,25,2026-09-27,2026-06-01,Rep_3,RevOS Analytics,Referral,INR,2,0.0,False,False,False,34,98
+380,Deltaforce Inc — RevOS Starter,4105131.0,Proposal,50,2026-07-05,2026-04-09,Rep_10,RevOS API,Outbound,INR,0,0.0,False,False,False,4,10
+381,Ultradev Inc — RevOS Enterprise,3746529.0,Discovery,10,2026-10-01,2026-05-28,Rep_6,RevOS Starter,Inbound,INR,1,10.6,False,False,False,21,59
+382,Orchidtech Inc — RevOS Pro,4492698.0,Discovery,10,2026-10-01,2026-06-15,Rep_3,RevOS Enterprise,Partner,INR,1,0.0,False,False,False,41,116
+383,Jetscale Inc — RevOS Analytics,2602885.0,Closed Won,100,2026-09-12,2026-08-07,Rep_5,RevOS Starter,Inbound,INR,0,0.0,False,True,True,10,26
+384,Acmetech Inc — RevOS Starter,7085083.0,Discovery,10,2026-08-18,2026-05-17,Rep_4,RevOS API,Event,INR,0,0.0,False,False,False,1,2
+385,Corelogic Inc — RevOS Starter,5103356.0,Negotiation,75,2026-12-22,2026-09-20,Rep_1,RevOS Starter,Outbound,INR,2,5.2,True,False,False,29,84
+386,Clearstack Inc — RevOS Starter,7951134.0,Qualification,25,2026-10-05,2026-08-30,Rep_5,RevOS API,Partner,INR,0,0.0,False,False,False,3,8
+387,Junctionai Inc — RevOS Enterprise,479552.0,Closed Lost,0,2026-07-11,2026-04-26,Rep_6,RevOS Enterprise,Event,INR,0,0.0,False,True,False,36,104
+388,Windrose Inc — RevOS Enterprise,1249457.0,Closed Won,100,2026-11-11,2026-09-05,Rep_6,RevOS API,Event,INR,0,0.0,False,True,True,49,143
+389,Novabridge Inc — RevOS API,5847778.0,Discovery,10,2026-07-19,2026-04-13,Rep_5,RevOS Analytics,Partner,INR,0,0.0,False,False,False,40,113
+390,Quantleap Inc — RevOS API,4588548.0,Proposal,50,2026-07-15,2026-04-15,Rep_8,RevOS Analytics,Outbound,INR,1,0.0,False,False,False,17,48
+391,Omnilayer Inc — RevOS Pro,3826108.0,Closed Lost,0,2026-11-05,2026-09-21,Rep_4,RevOS API,Event,INR,0,0.0,False,True,False,15,41
+392,Vantagepoint Inc — RevOS Enterprise,1769260.0,Proposal,50,2026-06-07,2026-04-11,Rep_5,RevOS Pro,Referral,INR,0,0.0,False,False,False,22,61
+393,Junctionai Inc — RevOS API,3289185.0,Negotiation,75,2027-01-11,2026-08-23,Rep_10,RevOS Pro,Outbound,INR,2,12.5,False,False,False,36,105
+394,Edgeflux Inc — RevOS API,5092164.0,Negotiation,75,2026-06-22,2026-04-09,Rep_6,RevOS Analytics,Event,INR,3,0.0,True,False,False,31,92
+395,Hexacore Inc — RevOS Enterprise,4703702.0,Proposal,50,2026-10-12,2026-07-03,Rep_6,RevOS Pro,Outbound,INR,0,0.5,False,False,False,34,100
+396,Yieldmax Inc — RevOS Enterprise,6302283.0,Proposal,50,2026-08-06,2026-06-14,Rep_6,RevOS Pro,Referral,INR,0,0.0,False,False,False,25,71
+397,Fusionware Inc — RevOS Pro,1075404.0,Proposal,50,2026-09-19,2026-07-06,Rep_4,RevOS Pro,Event,INR,2,0.0,False,False,False,32,93
+398,Edgeflux Inc — RevOS Pro,2753236.0,Qualification,25,2026-10-03,2026-05-21,Rep_9,RevOS Starter,Outbound,INR,2,0.0,False,False,False,31,91
+399,Datavault Inc — RevOS API,7472231.0,Negotiation,75,2026-06-24,2026-05-11,Rep_2,RevOS Enterprise,Event,INR,0,0.0,True,False,False,30,90
+400,Xyphorai Inc — RevOS Enterprise,7158658.0,Negotiation,75,2027-01-31,2026-09-16,Rep_4,RevOS Starter,Referral,INR,2,4.8,True,False,False,50,146
+401,Hyperion Inc — RevOS Pro,4565081.0,Discovery,10,2026-08-26,2026-07-13,Rep_4,RevOS API,Referral,INR,0,0.0,False,False,False,8,21
+402,Raptorx Inc — RevOS Enterprise,1535945.0,Closed Lost,0,2026-10-22,2026-07-11,Rep_10,RevOS Enterprise,Partner,INR,0,0.0,False,True,False,18,50
+403,Infoedge Inc — RevOS Analytics,871733.0,Proposal,50,2026-11-12,2026-09-09,Rep_3,RevOS API,Partner,INR,3,0.0,False,False,False,9,22
+404,Signalops Inc — RevOS API,1745548.0,Proposal,50,2026-10-09,2026-06-22,Rep_2,RevOS Analytics,Partner,INR,2,12.2,False,False,False,45,129
+405,Signalops Inc — RevOS Starter,2007215.0,Discovery,10,2026-12-10,2026-07-04,Rep_3,RevOS API,Referral,INR,3,0.0,False,False,False,45,128
+406,Zenithops Inc — RevOS Pro,4002553.0,Negotiation,75,2026-07-13,2026-04-04,Rep_8,RevOS Pro,Referral,INR,2,0.0,False,False,False,26,75
+407,Stratosai Inc — RevOS Pro,6576913.0,Negotiation,75,2026-11-23,2026-08-20,Rep_6,RevOS API,Inbound,INR,0,0.0,True,False,False,19,54
+408,Zenithops Inc — RevOS Enterprise,3193768.0,Qualification,25,2026-11-12,2026-07-21,Rep_4,RevOS API,Event,INR,1,0.0,False,False,False,26,77
+409,Brightspark Inc — RevOS API,7460733.0,Proposal,50,2026-09-13,2026-07-23,Rep_8,RevOS Pro,Partner,INR,0,0.0,False,False,False,28,83
+410,Ultradev Inc — RevOS Pro,742940.0,Closed Won,100,2026-10-15,2026-08-07,Rep_10,RevOS Analytics,Referral,INR,0,0.0,False,True,True,21,58
+411,Finlabs Inc — RevOS Starter,201438.0,Closed Won,100,2026-08-15,2026-04-26,Rep_3,RevOS Analytics,Partner,INR,0,9.2,True,True,True,6,15
+412,Nexatech Inc — RevOS API,4745270.0,Qualification,25,2026-10-15,2026-07-06,Rep_9,RevOS Analytics,Outbound,INR,2,0.0,False,False,False,14,38
+413,Deltaforce Inc — RevOS Enterprise,4568236.0,Closed Won,100,2026-10-08,2026-09-08,Rep_2,RevOS Enterprise,Inbound,INR,0,10.5,True,True,True,4,11
+414,Ultradev Inc — RevOS Starter,1552599.0,Proposal,50,2026-09-26,2026-06-02,Rep_4,RevOS API,Event,INR,1,0.0,False,False,False,21,59
+415,Xeronova Inc — RevOS Starter,5257436.0,Qualification,25,2026-10-06,2026-08-20,Rep_8,RevOS Analytics,Outbound,INR,0,9.6,False,False,False,24,68
+416,Alphacloud Inc — RevOS API,1602420.0,Closed Won,100,2026-07-13,2026-04-20,Rep_7,RevOS API,Event,INR,0,0.0,True,True,True,27,81
+417,Brightspark Inc — RevOS API,7427203.0,Proposal,50,2026-11-20,2026-07-23,Rep_6,RevOS Pro,Inbound,INR,2,0.0,False,False,False,28,82
+418,Terraflow Inc — RevOS API,5895447.0,Discovery,10,2026-09-16,2026-05-21,Rep_5,RevOS Analytics,Partner,INR,0,13.3,False,False,False,46,131
+419,Finlabs Inc — RevOS API,5142764.0,Proposal,50,2026-07-29,2026-04-05,Rep_5,RevOS API,Inbound,INR,0,0.0,False,False,False,6,15
+420,Innov8 Inc — RevOS Enterprise,2952733.0,Proposal,50,2026-09-06,2026-05-13,Rep_5,RevOS Starter,Inbound,INR,2,0.0,False,False,False,35,102
+421,Maplesoft Inc — RevOS Starter,3890652.0,Negotiation,75,2026-07-02,2026-04-30,Rep_10,RevOS Pro,Referral,INR,0,0.0,False,False,False,39,112
+422,Stratosai Inc — RevOS Enterprise,1233802.0,Discovery,10,2026-07-15,2026-05-15,Rep_5,RevOS Enterprise,Inbound,INR,2,0.0,False,False,False,19,54
+423,Maplesoft Inc — RevOS Starter,3084181.0,Closed Won,100,2026-12-06,2026-08-14,Rep_5,RevOS Starter,Event,INR,0,7.9,True,True,True,39,111
+424,Finlabs Inc — RevOS Analytics,3188703.0,Proposal,50,2027-01-10,2026-08-13,Rep_3,RevOS Starter,Partner,INR,3,0.0,False,False,False,6,15
+425,Wavefront Inc — RevOS Enterprise,3310209.0,Negotiation,75,2026-10-12,2026-08-23,Rep_8,RevOS API,Outbound,INR,1,0.0,False,False,False,23,63
+426,Edgeflux Inc — RevOS Analytics,6419011.0,Discovery,10,2026-08-14,2026-06-02,Rep_6,RevOS API,Inbound,INR,2,8.0,False,False,False,31,92
+427,Wavefront Inc — RevOS Pro,2283285.0,Negotiation,75,2026-07-03,2026-04-08,Rep_5,RevOS API,Event,INR,2,0.0,False,False,False,23,66
+428,Prismdata Inc — RevOS Starter,5584171.0,Negotiation,75,2026-12-11,2026-08-03,Rep_6,RevOS API,Inbound,INR,2,0.0,False,False,False,16,45
+429,Acmetech Inc — RevOS Enterprise,1911447.0,Discovery,10,2027-01-26,2026-08-26,Rep_5,RevOS Starter,Inbound,INR,3,1.4,False,False,False,1,2
+430,Maplesoft Inc — RevOS Pro,7670804.0,Closed Lost,0,2026-05-26,2026-04-11,Rep_10,RevOS Starter,Event,INR,0,0.0,False,True,False,39,111
+431,Pulsenet Inc — RevOS Enterprise,1637251.0,Closed Won,100,2026-09-18,2026-08-05,Rep_8,RevOS Pro,Event,INR,0,0.0,True,True,True,42,120
+432,Brightspark Inc — RevOS Pro,3231005.0,Qualification,25,2026-11-07,2026-09-03,Rep_5,RevOS Enterprise,Outbound,INR,0,0.0,False,False,False,28,83
+433,Fusionware Inc — RevOS Analytics,1322206.0,Negotiation,75,2026-12-21,2026-08-07,Rep_4,RevOS API,Inbound,INR,3,0.0,False,False,False,32,93
+434,Growthloop Inc — RevOS Starter,7192797.0,Discovery,10,2026-07-20,2026-04-28,Rep_1,RevOS Pro,Event,INR,3,10.5,False,False,False,7,18
+435,Zenithops Inc — RevOS Pro,6783583.0,Proposal,50,2026-09-26,2026-05-19,Rep_9,RevOS Starter,Inbound,INR,3,0.0,False,False,False,26,74
+436,Signalops Inc — RevOS Pro,2562059.0,Discovery,10,2026-08-24,2026-05-07,Rep_2,RevOS Enterprise,Partner,INR,2,0.0,False,False,False,45,128
+437,Vantagepoint Inc — RevOS Pro,1577623.0,Closed Won,100,2026-10-29,2026-07-09,Rep_7,RevOS Starter,Referral,INR,0,0.0,False,True,True,22,60
+438,Orchidtech Inc — RevOS Pro,1677823.0,Proposal,50,2027-02-11,2026-08-31,Rep_4,RevOS Pro,Partner,INR,3,5.8,False,False,False,41,117
+439,Innov8 Inc — RevOS Pro,637225.0,Proposal,50,2026-06-30,2026-05-29,Rep_7,RevOS Pro,Outbound,INR,0,0.0,False,False,False,35,103
+440,Qubitlabs Inc — RevOS Pro,4718897.0,Closed Lost,0,2026-06-25,2026-05-07,Rep_1,RevOS Starter,Event,INR,0,0.0,False,True,False,43,124
+441,Edgeflux Inc — RevOS Enterprise,5134759.0,Qualification,25,2026-05-24,2026-04-08,Rep_2,RevOS Analytics,Partner,INR,0,8.9,False,False,False,31,91
+442,Growthloop Inc — RevOS Enterprise,1780601.0,Proposal,50,2026-06-14,2026-04-17,Rep_7,RevOS Enterprise,Inbound,INR,0,0.0,False,False,False,7,18
+443,Keystone Inc — RevOS Enterprise,693131.0,Discovery,10,2026-09-14,2026-07-29,Rep_3,RevOS Analytics,Outbound,INR,1,0.0,False,False,False,37,108
+444,Junctionai Inc — RevOS API,6370208.0,Proposal,50,2026-06-08,2026-04-26,Rep_7,RevOS Starter,Inbound,INR,1,0.0,False,False,False,36,104
+445,Finlabs Inc — RevOS Analytics,5609328.0,Discovery,10,2027-01-23,2026-08-30,Rep_3,RevOS Starter,Outbound,INR,2,0.0,False,False,False,6,14
+446,Hexacore Inc — RevOS Analytics,1604004.0,Proposal,50,2026-11-24,2026-08-08,Rep_10,RevOS Pro,Referral,INR,0,0.0,False,False,False,34,101
+447,Acmetech Inc — RevOS API,6136800.0,Qualification,25,2026-07-30,2026-05-09,Rep_9,RevOS Starter,Event,INR,2,0.0,False,False,False,1,1
+448,Qubitlabs Inc — RevOS Analytics,6781497.0,Qualification,25,2026-10-03,2026-08-03,Rep_8,RevOS Starter,Outbound,INR,1,0.0,False,False,False,43,122
+449,Clearstack Inc — RevOS Analytics,2807498.0,Negotiation,75,2026-10-08,2026-07-11,Rep_1,RevOS Pro,Inbound,INR,3,0.0,True,False,False,3,6
+450,Betaworks Inc — RevOS Analytics,4722142.0,Proposal,50,2026-12-20,2026-09-03,Rep_4,RevOS Enterprise,Outbound,INR,3,0.0,False,False,False,2,4
+451,Ultradev Inc — RevOS Analytics,1921170.0,Discovery,10,2026-10-04,2026-06-08,Rep_10,RevOS Analytics,Inbound,INR,3,0.0,False,False,False,21,58
+452,Jetscale Inc — RevOS Analytics,3113184.0,Closed Lost,0,2026-07-19,2026-05-28,Rep_4,RevOS Enterprise,Referral,INR,0,1.9,False,True,False,10,26
+453,Signalops Inc — RevOS Enterprise,3462146.0,Discovery,10,2026-11-12,2026-08-18,Rep_4,RevOS Enterprise,Partner,INR,3,11.9,False,False,False,45,129
+454,Novabridge Inc — RevOS Analytics,6884395.0,Proposal,50,2026-07-01,2026-05-03,Rep_4,RevOS API,Event,INR,0,0.0,False,False,False,40,113
+455,Raptorx Inc — RevOS API,4719843.0,Negotiation,75,2026-10-15,2026-07-20,Rep_3,RevOS API,Inbound,INR,2,0.0,True,False,False,18,49
+456,Edgeflux Inc — RevOS Pro,4063223.0,Proposal,50,2026-09-12,2026-06-13,Rep_9,RevOS Pro,Event,INR,0,0.0,False,False,False,31,91
+457,Infoedge Inc — RevOS Starter,5418478.0,Qualification,25,2026-05-20,2026-04-09,Rep_8,RevOS API,Partner,INR,0,6.8,False,False,False,9,24
+458,Xyphorai Inc — RevOS Analytics,6998104.0,Closed Won,100,2026-08-02,2026-06-10,Rep_1,RevOS Pro,Event,INR,0,0.0,True,True,True,50,144
+459,Clearstack Inc — RevOS API,5540388.0,Proposal,50,2026-11-29,2026-07-14,Rep_6,RevOS Pro,Partner,INR,1,0.0,False,False,False,3,8
+460,Relaystack Inc — RevOS Pro,3829752.0,Closed Won,100,2026-11-11,2026-08-24,Rep_6,RevOS Enterprise,Outbound,INR,0,0.0,False,True,True,44,126
+461,Junctionai Inc — RevOS API,3932249.0,Discovery,10,2026-08-27,2026-06-28,Rep_4,RevOS Starter,Referral,INR,0,0.0,False,False,False,36,104
+462,Raptorx Inc — RevOS API,3992570.0,Qualification,25,2026-12-19,2026-09-05,Rep_2,RevOS Analytics,Partner,INR,2,0.0,False,False,False,18,52
+463,Innov8 Inc — RevOS Analytics,7156845.0,Proposal,50,2026-10-13,2026-06-19,Rep_2,RevOS Pro,Event,INR,0,0.0,False,False,False,35,103
+464,Stratosai Inc — RevOS Starter,1373885.0,Discovery,10,2026-09-09,2026-07-13,Rep_9,RevOS Pro,Referral,INR,1,0.0,False,False,False,19,53
+465,Relaystack Inc — RevOS Pro,1674673.0,Proposal,50,2026-08-31,2026-06-06,Rep_4,RevOS API,Referral,INR,0,0.0,False,False,False,44,125
+466,Vantagepoint Inc — RevOS Starter,2571842.0,Negotiation,75,2026-11-11,2026-06-30,Rep_5,RevOS Starter,Referral,INR,3,5.6,True,False,False,22,62
+467,Deltaforce Inc — RevOS Starter,4375470.0,Proposal,50,2026-08-05,2026-05-28,Rep_3,RevOS Starter,Outbound,INR,1,0.6,False,False,False,4,10
+468,Ultradev Inc — RevOS Enterprise,5715648.0,Proposal,50,2026-08-26,2026-06-19,Rep_6,RevOS Starter,Referral,INR,1,0.0,False,False,False,21,58
+469,Kinetiq Inc — RevOS Analytics,1333994.0,Discovery,10,2027-01-31,2026-09-15,Rep_6,RevOS Starter,Inbound,INR,3,0.0,False,False,False,11,30
+470,Innov8 Inc — RevOS API,7849380.0,Negotiation,75,2026-11-13,2026-07-08,Rep_3,RevOS API,Event,INR,2,0.0,True,False,False,35,103
+471,Edgeflux Inc — RevOS Starter,3332713.0,Discovery,10,2026-06-30,2026-05-03,Rep_8,RevOS Enterprise,Inbound,INR,2,0.0,False,False,False,31,91
+472,Maplesoft Inc — RevOS Analytics,851998.0,Proposal,50,2026-10-07,2026-07-27,Rep_2,RevOS API,Event,INR,1,4.8,False,False,False,39,111
+473,Maplesoft Inc — RevOS Analytics,5784517.0,Closed Won,100,2026-09-09,2026-06-21,Rep_6,RevOS Analytics,Referral,INR,0,5.2,True,True,True,39,111
+474,Corelogic Inc — RevOS Analytics,1477565.0,Discovery,10,2026-09-24,2026-05-31,Rep_7,RevOS Starter,Partner,INR,3,0.0,False,False,False,29,86
+475,Jetscale Inc — RevOS Analytics,7688743.0,Qualification,25,2026-07-21,2026-05-10,Rep_2,RevOS Pro,Event,INR,0,0.0,False,False,False,10,26
+476,Raptorx Inc — RevOS Analytics,1650850.0,Qualification,25,2026-10-03,2026-05-26,Rep_5,RevOS API,Event,INR,1,12.4,False,False,False,18,52
+477,Luminance Inc — RevOS Enterprise,219084.0,Proposal,50,2026-07-23,2026-05-26,Rep_5,RevOS Analytics,Inbound,INR,0,0.0,False,False,False,38,110
+478,Stratosai Inc — RevOS Analytics,6164803.0,Qualification,25,2026-06-09,2026-04-09,Rep_2,RevOS API,Referral,INR,0,0.0,False,False,False,19,54
+479,Keystone Inc — RevOS Pro,7799218.0,Closed Won,100,2026-08-09,2026-04-14,Rep_6,RevOS API,Partner,INR,0,3.9,True,True,True,37,107
+480,Jetscale Inc — RevOS Analytics,2326829.0,Proposal,50,2026-11-08,2026-08-18,Rep_6,RevOS Pro,Referral,INR,1,9.6,False,False,False,10,27
+481,Ecomsprint Inc — RevOS Enterprise,2716334.0,Negotiation,75,2026-10-02,2026-08-06,Rep_5,RevOS Enterprise,Referral,INR,1,8.7,False,False,False,5,12
+482,Acmetech Inc — RevOS Starter,7383078.0,Proposal,50,2026-10-24,2026-06-18,Rep_2,RevOS Starter,Outbound,INR,3,0.0,False,False,False,1,1
+483,Metaverse Inc — RevOS Enterprise,335559.0,Proposal,50,2026-11-06,2026-09-02,Rep_5,RevOS Enterprise,Outbound,INR,1,0.0,False,False,False,13,35
+484,Maplesoft Inc — RevOS Starter,1203973.0,Qualification,25,2026-08-08,2026-07-06,Rep_4,RevOS Enterprise,Outbound,INR,0,14.7,False,False,False,39,112
+485,Brightspark Inc — RevOS API,1040976.0,Discovery,10,2026-08-14,2026-05-21,Rep_10,RevOS Pro,Event,INR,0,3.8,False,False,False,28,82
+486,Ecomsprint Inc — RevOS Starter,7229164.0,Negotiation,75,2026-10-28,2026-08-28,Rep_6,RevOS Pro,Inbound,INR,1,11.2,True,False,False,5,13
+487,Luminance Inc — RevOS Pro,4647836.0,Proposal,50,2026-09-16,2026-05-16,Rep_10,RevOS Pro,Partner,INR,1,2.9,False,False,False,38,110
+488,Stratosai Inc — RevOS Starter,969749.0,Closed Won,100,2026-06-06,2026-05-07,Rep_9,RevOS Analytics,Referral,INR,0,0.0,True,True,True,19,53
+489,Relaystack Inc — RevOS Analytics,4211158.0,Qualification,25,2026-10-09,2026-06-23,Rep_2,RevOS Enterprise,Inbound,INR,3,0.0,False,False,False,44,125
+490,Hexacore Inc — RevOS Pro,5832665.0,Proposal,50,2026-11-18,2026-06-21,Rep_6,RevOS Analytics,Inbound,INR,2,0.0,False,False,False,34,99
+491,Datavault Inc — RevOS Analytics,7882706.0,Negotiation,75,2026-08-30,2026-05-31,Rep_4,RevOS Pro,Event,INR,3,0.0,True,False,False,30,89
+492,Acmetech Inc — RevOS Analytics,1318267.0,Negotiation,75,2026-09-06,2026-06-12,Rep_10,RevOS Pro,Outbound,INR,0,14.6,True,False,False,1,2
+493,Maplesoft Inc — RevOS API,5765252.0,Discovery,10,2026-10-14,2026-06-05,Rep_10,RevOS Enterprise,Event,INR,2,0.0,False,False,False,39,112
+494,Qubitlabs Inc — RevOS Pro,6190397.0,Closed Lost,0,2026-07-18,2026-05-14,Rep_2,RevOS Enterprise,Event,INR,0,0.0,False,True,False,43,124
+495,Orchidtech Inc — RevOS Starter,408641.0,Discovery,10,2026-12-06,2026-09-08,Rep_7,RevOS API,Referral,INR,3,9.3,False,False,False,41,115
+496,Growthloop Inc — RevOS Analytics,2489791.0,Negotiation,75,2026-09-11,2026-05-11,Rep_8,RevOS API,Referral,INR,3,0.0,False,False,False,7,18
+497,Innov8 Inc — RevOS Analytics,7336525.0,Closed Lost,0,2026-12-07,2026-09-13,Rep_8,RevOS Enterprise,Event,INR,0,0.0,False,True,False,35,102
+498,Clearstack Inc — RevOS Enterprise,3559313.0,Qualification,25,2026-06-27,2026-04-06,Rep_7,RevOS Analytics,Inbound,INR,1,0.0,False,False,False,3,6
+499,Fusionware Inc — RevOS Starter,4585592.0,Proposal,50,2026-09-28,2026-05-06,Rep_9,RevOS Pro,Event,INR,3,8.9,False,False,False,32,95
+500,Yieldmax Inc — RevOS Starter,4805615.0,Negotiation,75,2026-09-20,2026-07-11,Rep_6,RevOS Enterprise,Partner,INR,0,13.4,True,False,False,25,72

@@ -1,0 +1,25 @@
+# Root .gitignore for RevOS
+
+# Dependencies & Build Outputs
+node_modules/
+.next/
+build/
+dist/
+__pycache__/
+venv/
+env/
+
+# Data & Storage
+*.db
+revos.db
+chroma_store/
+*.pkl
+
+# Secrets & Environment Variables
+.env
+.env.*
+!.env.example
+
+# OS Files
+.DS_Store
+Thumbs.db

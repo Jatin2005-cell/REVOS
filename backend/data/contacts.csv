@@ -1,0 +1,147 @@
+id,name,email,role,phone,is_champion,account_id
+1,Daniel Shah,daniel.shah@acmetech.com,VP Engineering,+91-7623922363,True,1
+2,Karthik Shah,karthik.shah@acmetech.com,CTO,+91-8160965519,False,1
+3,Jessica Patel,jessica.patel@betaworks.in,VP Engineering,+91-9206495649,True,2
+4,Karthik Patel,karthik.patel@betaworks.in,CTO,+91-8319354473,False,2
+5,Karthik Verma,karthik.verma@betaworks.in,Head of Sales,+91-7627834931,False,2
+6,William Gupta,william.gupta@clearstack.io,VP Engineering,+91-8382434050,True,3
+7,Ritu Smith,ritu.smith@clearstack.io,CTO,+91-7818519880,False,3
+8,William Brown,william.brown@clearstack.io,Head of Sales,+91-7320816630,False,3
+9,Aarav Singh,aarav.singh@clearstack.io,CFO,+91-9469240982,False,3
+10,Robert Johnson,robert.johnson@deltaforce.co,VP Engineering,+91-8577338016,True,4
+11,Lisa Patel,lisa.patel@deltaforce.co,CTO,+91-7539459672,False,4
+12,David Mehta,david.mehta@ecomsprint.com,VP Engineering,+91-9569269638,True,5
+13,Nikhil Shah,nikhil.shah@ecomsprint.com,CTO,+91-9282582845,False,5
+14,Ashley Gupta,ashley.gupta@finlabs.in,VP Engineering,+91-7622248890,True,6
+15,Nisha Patel,nisha.patel@finlabs.in,CTO,+91-8897881066,False,6
+16,Sneha Rao,sneha.rao@finlabs.in,Head of Sales,+91-7187316572,False,6
+17,Daniel Williams,daniel.williams@finlabs.in,CFO,+91-9794179615,False,6
+18,Sneha Williams,sneha.williams@growthloop.io,VP Engineering,+91-7262534356,True,7
+19,Vikram Miller,vikram.miller@growthloop.io,CTO,+91-7222698501,False,7
+20,Lisa Kumar,lisa.kumar@hyperion.co,VP Engineering,+91-9917284668,True,8
+21,Kavita Jones,kavita.jones@hyperion.co,CTO,+91-8948115209,False,8
+22,Anjali Shah,anjali.shah@infoedge.com,VP Engineering,+91-9154086503,True,9
+23,Amanda Rao,amanda.rao@infoedge.com,CTO,+91-7854436772,False,9
+24,James Verma,james.verma@infoedge.com,Head of Sales,+91-7870361876,False,9
+25,Arjun Davis,arjun.davis@infoedge.com,CFO,+91-7983069929,False,9
+26,Vikram Sharma,vikram.sharma@jetscale.in,VP Engineering,+91-8501791416,True,10
+27,Karthik Singh,karthik.singh@jetscale.in,CTO,+91-8761737938,False,10
+28,Chris Mehta,chris.mehta@jetscale.in,Head of Sales,+91-7434055745,False,10
+29,Kavita Das,kavita.das@kinetiq.io,VP Engineering,+91-7933830676,True,11
+30,William Brown,william.brown@kinetiq.io,CTO,+91-9305349651,False,11
+31,Amanda Sharma,amanda.sharma@logicworks.co,VP Engineering,+91-9188482692,True,12
+32,Swati Kumar,swati.kumar@logicworks.co,CTO,+91-9877427601,False,12
+33,Manish Kumar,manish.kumar@logicworks.co,Head of Sales,+91-9915424029,False,12
+34,Divya Mehta,divya.mehta@logicworks.co,CFO,+91-7923289276,False,12
+35,Sarah Joshi,sarah.joshi@metaverse.in,VP Engineering,+91-9252793130,True,13
+36,Manish Williams,manish.williams@metaverse.in,CTO,+91-8600842914,False,13
+37,Anjali Davis,anjali.davis@nexatech.io,VP Engineering,+91-8387946265,True,14
+38,Rohan Sharma,rohan.sharma@nexatech.io,CTO,+91-8092927146,False,14
+39,Manish Reddy,manish.reddy@omnilayer.co,VP Engineering,+91-9428867912,True,15
+40,Jennifer Brown,jennifer.brown@omnilayer.co,CTO,+91-7031624663,False,15
+41,Vikram Gupta,vikram.gupta@omnilayer.co,Head of Sales,+91-8787714722,False,15
+42,Emma Jones,emma.jones@omnilayer.co,CFO,+91-8810529410,False,15
+43,Arjun Patel,arjun.patel@prismdata.com,VP Engineering,+91-8010157795,True,16
+44,Rohan Das,rohan.das@prismdata.com,CTO,+91-7688399399,False,16
+45,Kavita Kumar,kavita.kumar@prismdata.com,Head of Sales,+91-8158983385,False,16
+46,Divya Verma,divya.verma@quantleap.in,VP Engineering,+91-9833131299,True,17
+47,Pooja Shah,pooja.shah@quantleap.in,CTO,+91-7081233509,False,17
+48,Sarah Shah,sarah.shah@quantleap.in,Head of Sales,+91-9628797806,False,17
+49,Kavita Mehta,kavita.mehta@raptorx.io,VP Engineering,+91-7521624168,True,18
+50,David Patel,david.patel@raptorx.io,CTO,+91-9813471694,False,18
+51,Siddharth Joshi,siddharth.joshi@raptorx.io,Head of Sales,+91-9675770332,False,18
+52,Michael Iyer,michael.iyer@raptorx.io,CFO,+91-9688739831,False,18
+53,Priya Joshi,priya.joshi@stratosai.co,VP Engineering,+91-8305653025,True,19
+54,Ritu Singh,ritu.singh@stratosai.co,CTO,+91-9534046585,False,19
+55,Chris Nair,chris.nair@truepathsys.com,VP Engineering,+91-9226680282,True,20
+56,Sarah Sharma,sarah.sharma@truepathsys.com,CTO,+91-7377944237,False,20
+57,Pooja Jones,pooja.jones@truepathsys.com,Head of Sales,+91-7869815014,False,20
+58,Jennifer Das,jennifer.das@ultradev.in,VP Engineering,+91-9387251114,True,21
+59,Jennifer Miller,jennifer.miller@ultradev.in,CTO,+91-8675825157,False,21
+60,Aditya Mehta,aditya.mehta@vantagepoint.io,VP Engineering,+91-7145467154,True,22
+61,Aarav Williams,aarav.williams@vantagepoint.io,CTO,+91-9642780575,False,22
+62,Aditya Das,aditya.das@vantagepoint.io,Head of Sales,+91-8413219171,False,22
+63,Sarah Miller,sarah.miller@wavefront.co,VP Engineering,+91-8028696951,True,23
+64,Meera Iyer,meera.iyer@wavefront.co,CTO,+91-8661750538,False,23
+65,Robert Rao,robert.rao@wavefront.co,Head of Sales,+91-8318548752,False,23
+66,Arjun Joshi,arjun.joshi@wavefront.co,CFO,+91-8377797153,False,23
+67,Pooja Miller,pooja.miller@xeronova.com,VP Engineering,+91-8864849446,True,24
+68,Lisa Brown,lisa.brown@xeronova.com,CTO,+91-9731910053,False,24
+69,Swati Iyer,swati.iyer@xeronova.com,Head of Sales,+91-7688766346,False,24
+70,James Smith,james.smith@yieldmax.in,VP Engineering,+91-8447667954,True,25
+71,Nisha Williams,nisha.williams@yieldmax.in,CTO,+91-8550532241,False,25
+72,Anjali Iyer,anjali.iyer@yieldmax.in,Head of Sales,+91-8689097012,False,25
+73,Sarah Singh,sarah.singh@yieldmax.in,CFO,+91-9681840784,False,25
+74,Swati Verma,swati.verma@zenithops.io,VP Engineering,+91-9642936100,True,26
+75,Divya Sharma,divya.sharma@zenithops.io,CTO,+91-7151442092,False,26
+76,Daniel Miller,daniel.miller@zenithops.io,Head of Sales,+91-9784419545,False,26
+77,Jessica Shah,jessica.shah@zenithops.io,CFO,+91-9903692544,False,26
+78,Aditya Nair,aditya.nair@alphacloud.co,VP Engineering,+91-8619962383,True,27
+79,Kavita Gupta,kavita.gupta@alphacloud.co,CTO,+91-9149710726,False,27
+80,Karthik Shah,karthik.shah@alphacloud.co,Head of Sales,+91-7717033053,False,27
+81,Amanda Smith,amanda.smith@alphacloud.co,CFO,+91-7164583060,False,27
+82,Meera Smith,meera.smith@brightspark.com,VP Engineering,+91-7436970901,True,28
+83,Amanda Brown,amanda.brown@brightspark.com,CTO,+91-8951151588,False,28
+84,Chris Shah,chris.shah@corelogic.in,VP Engineering,+91-9721681810,True,29
+85,William Reddy,william.reddy@corelogic.in,CTO,+91-9436872216,False,29
+86,William Mehta,william.mehta@corelogic.in,Head of Sales,+91-9463442406,False,29
+87,Ritu Williams,ritu.williams@datavault.io,VP Engineering,+91-8587992149,True,30
+88,Kavita Mehta,kavita.mehta@datavault.io,CTO,+91-8441320155,False,30
+89,Nikhil Verma,nikhil.verma@datavault.io,Head of Sales,+91-7890354020,False,30
+90,James Brown,james.brown@datavault.io,CFO,+91-7264028136,False,30
+91,Siddharth Nair,siddharth.nair@edgeflux.co,VP Engineering,+91-9273930028,True,31
+92,Nisha Singh,nisha.singh@edgeflux.co,CTO,+91-8359463424,False,31
+93,Jessica Shah,jessica.shah@fusionware.com,VP Engineering,+91-7204037110,True,32
+94,Robert Nair,robert.nair@fusionware.com,CTO,+91-9964986556,False,32
+95,Priya Jones,priya.jones@fusionware.com,Head of Sales,+91-8246472518,False,32
+96,Michael Iyer,michael.iyer@globecast.in,VP Engineering,+91-9468961116,True,33
+97,Robert Brown,robert.brown@globecast.in,CTO,+91-9449481582,False,33
+98,Siddharth Johnson,siddharth.johnson@hexacore.io,VP Engineering,+91-7719045774,True,34
+99,Jennifer Johnson,jennifer.johnson@hexacore.io,CTO,+91-7095160968,False,34
+100,Sarah Nair,sarah.nair@hexacore.io,Head of Sales,+91-9372931632,False,34
+101,Jessica Gupta,jessica.gupta@hexacore.io,CFO,+91-9039080008,False,34
+102,Lisa Jones,lisa.jones@innov8.co,VP Engineering,+91-8849396900,True,35
+103,Priya Singh,priya.singh@innov8.co,CTO,+91-9106166179,False,35
+104,Jessica Reddy,jessica.reddy@junctionai.com,VP Engineering,+91-7164744099,True,36
+105,David Rao,david.rao@junctionai.com,CTO,+91-7693569598,False,36
+106,Sarah Nair,sarah.nair@keystone.in,VP Engineering,+91-7911765255,True,37
+107,Manish Singh,manish.singh@keystone.in,CTO,+91-8541112540,False,37
+108,Sneha Das,sneha.das@keystone.in,Head of Sales,+91-7734795215,False,37
+109,Rohan Sharma,rohan.sharma@luminance.io,VP Engineering,+91-7810236130,True,38
+110,Priya Miller,priya.miller@luminance.io,CTO,+91-7499341266,False,38
+111,Daniel Kumar,daniel.kumar@maplesoft.co,VP Engineering,+91-8848038569,True,39
+112,Jessica Mehta,jessica.mehta@maplesoft.co,CTO,+91-9512958351,False,39
+113,Meera Reddy,meera.reddy@novabridge.com,VP Engineering,+91-8019224168,True,40
+114,Priya Iyer,priya.iyer@novabridge.com,CTO,+91-8886798781,False,40
+115,Lisa Joshi,lisa.joshi@orchidtech.in,VP Engineering,+91-7249087607,True,41
+116,Kavita Kumar,kavita.kumar@orchidtech.in,CTO,+91-9284549529,False,41
+117,Meera Jones,meera.jones@orchidtech.in,Head of Sales,+91-9564515383,False,41
+118,Jennifer Das,jennifer.das@pulsenet.io,VP Engineering,+91-7225976317,True,42
+119,Sarah Sharma,sarah.sharma@pulsenet.io,CTO,+91-9783865057,False,42
+120,Ashley Kumar,ashley.kumar@pulsenet.io,Head of Sales,+91-8420557472,False,42
+121,Jessica Gupta,jessica.gupta@qubitlabs.co,VP Engineering,+91-8427033086,True,43
+122,Amanda Davis,amanda.davis@qubitlabs.co,CTO,+91-7885090728,False,43
+123,Daniel Smith,daniel.smith@qubitlabs.co,Head of Sales,+91-8427287656,False,43
+124,Ritu Rao,ritu.rao@qubitlabs.co,CFO,+91-9790842177,False,43
+125,Ritu Smith,ritu.smith@relaystack.com,VP Engineering,+91-7799070910,True,44
+126,David Rao,david.rao@relaystack.com,CTO,+91-7094074789,False,44
+127,Pooja Johnson,pooja.johnson@signalops.in,VP Engineering,+91-7695056507,True,45
+128,Manish Rao,manish.rao@signalops.in,CTO,+91-7916388139,False,45
+129,Ritu Brown,ritu.brown@signalops.in,Head of Sales,+91-7033277715,False,45
+130,Anjali Verma,anjali.verma@terraflow.io,VP Engineering,+91-9359563271,True,46
+131,Ashley Brown,ashley.brown@terraflow.io,CTO,+91-9484341499,False,46
+132,Daniel Davis,daniel.davis@uplinkai.co,VP Engineering,+91-9332574332,True,47
+133,William Sharma,william.sharma@uplinkai.co,CTO,+91-7304948566,False,47
+134,Siddharth Nair,siddharth.nair@uplinkai.co,Head of Sales,+91-9266841890,False,47
+135,Swati Jones,swati.jones@uplinkai.co,CFO,+91-8209272031,False,47
+136,Amanda Das,amanda.das@vertexsys.com,VP Engineering,+91-8394282140,True,48
+137,Sarah Das,sarah.das@vertexsys.com,CTO,+91-9303169473,False,48
+138,Ritu Iyer,ritu.iyer@vertexsys.com,Head of Sales,+91-7823740217,False,48
+139,Meera Joshi,meera.joshi@vertexsys.com,CFO,+91-8033925670,False,48
+140,Pooja Joshi,pooja.joshi@windrose.in,VP Engineering,+91-7709073464,True,49
+141,Ritu Jones,ritu.jones@windrose.in,CTO,+91-9491078765,False,49
+142,Nikhil Kumar,nikhil.kumar@windrose.in,Head of Sales,+91-9728335443,False,49
+143,Nikhil Verma,nikhil.verma@windrose.in,CFO,+91-8182533519,False,49
+144,Aarav Brown,aarav.brown@xyphorai.io,VP Engineering,+91-7414745954,True,50
+145,Rohan Patel,rohan.patel@xyphorai.io,CTO,+91-8813248290,False,50
+146,Arjun Davis,arjun.davis@xyphorai.io,Head of Sales,+91-9845774340,False,50
