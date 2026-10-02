@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --bg-canvas: #08090b;
+  --bg-surface: #0f1115;
+  --bg-surface-hover: #161920;
+  --border-subtle: #1e222a;
+  --border-brand: #2563eb;
+  --text-primary: #f3f4f6;
+  --text-muted: #8b949e;
+}
+
+body {
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Tabular Numbers for Currency and Metrics */
+.font-numeric {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #08090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e222a;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2b313d;
+}
