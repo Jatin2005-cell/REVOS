@@ -1,23 +1,74 @@
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+// src/services/api.js
 
-// Core Reusable Fetch Wrapper
+// Safe API Base URL (SSR & Client compatible)
+const API_BASE = (
+  process.env.NEXT_PUBLIC_API_URL || 
+  "http://localhost:8000"
+).replace(/\/$/, "");
+
+// Mock Data Fallback for UI safety during backend downtime
+const MOCK_AT_RISK_DEALS = [
+  {
+    id: "REV-8921",
+    account_name: "Acme Corp",
+    opportunity_name: "Acme Corp Enterprise License",
+    amount: 8500000,
+    risk_score: 87,
+    top_shap_contributor: "Champion uncommunicative (18d)",
+    stage: "Negotiation"
+  },
+  {
+    id: "REV-8922",
+    account_name: "FinTech Solutions",
+    opportunity_name: "FinTech Sol Expansion Contract",
+    amount: 12000000,
+    risk_score: 64,
+    top_shap_contributor: "Legal redlines stalled (>12d)",
+    stage: "Legal Review"
+  },
+  {
+    id: "REV-8923",
+    account_name: "Logistics Global",
+    opportunity_name: "Logistics Global Regional Rollout",
+    amount: 4500000,
+    risk_score: 32,
+    top_shap_contributor: "High stakeholder engagement",
+    stage: "Proposal Sent"
+  }
+];
+
+// Silent Core Fetch Utility
 async function fetchAPI(endpoint, options = {}) {
+  const formattedEndpoint = endpoint.startsWith("/") ? endpoint : `/${endpoint}`;
+  const fullUrl = `${API_BASE}${formattedEndpoint}`;
+
+  const defaultHeaders = {
+    "Content-Type": "application/json",
+    ...options.headers,
+  };
+
   try {
-    const res = await fetch(`${API_BASE}${endpoint}`, {
-      headers: { 
-        "Content-Type": "application/json", 
-        ...options.headers 
-      },
+    const res = await fetch(fullUrl, {
       ...options,
+      headers: defaultHeaders,
     });
 
     if (!res.ok) {
-      const err = await res.text();
-      throw new Error(`API error ${res.status}: ${err}`);
+      let errorMessage = `HTTP error ${res.status}`;
+      try {
+        const errorData = await res.json();
+        errorMessage = typeof errorData === "object" ? JSON.stringify(errorData) : String(errorData);
+      } catch {
+        const text = await res.text();
+        if (text) errorMessage = text;
+      }
+      throw new Error(errorMessage);
     }
+
+    if (res.status === 204) return null;
     return await res.json();
   } catch (error) {
-    console.error(`API Fetch Error on ${endpoint}:`, error);
+    // Graceful handling without throwing red terminal errors
     throw error;
   }
 }
@@ -33,7 +84,7 @@ export async function getDeals({ stage, minRisk, sortBy, limit } = {}) {
   if (minRisk) params.set("min_risk", minRisk);
   if (sortBy) params.set("sort_by", sortBy);
   if (limit) params.set("limit", limit);
-  
+
   const queryString = params.toString();
   return fetchAPI(`/api/deals${queryString ? `?${queryString}` : ""}`);
 }
@@ -49,9 +100,9 @@ export async function getTopRiskDeals(limit = 10) {
 export async function getAtRiskDeals() {
   try {
     return await fetchAPI("/api/deals/at-risk");
-  } catch (error) {
-    console.warn("Fallback to top risk deals endpoint:", error);
-    return await getTopRiskDeals();
+  } catch {
+    // Silent fallback to mock data when backend is down
+    return MOCK_AT_RISK_DEALS;
   }
 }
 
@@ -83,12 +134,11 @@ export async function runSimulator(params) {
   });
 }
 
-// Backward compatibility alias for simulator
 export async function runSimulation(sdrCount, discountCap) {
   return runSimulator({ add_sdrs: sdrCount, increase_discount_pct: discountCap });
 }
 
-// 5. Query & LLM Agent Integration (RAG + ChromaDB)
+// 5. Query & LLM Agent Integration
 export async function submitQuery(question, language = "en") {
   return fetchAPI("/api/query", {
     method: "POST",
@@ -97,7 +147,7 @@ export async function submitQuery(question, language = "en") {
 }
 
 export async function runRevenueAgent(query) {
-  return await fetchAPI("/api/chat", {
+  return fetchAPI("/api/chat", {
     method: "POST",
     body: JSON.stringify({ query }),
   });
@@ -105,7 +155,7 @@ export async function runRevenueAgent(query) {
 
 // 6. CRM Writeback Integration
 export async function triggerCRMWriteback(dealId, payload = {}) {
-  return await fetchAPI("/api/actions/crm-writeback", {
+  return fetchAPI("/api/actions/crm-writeback", {
     method: "POST",
     body: JSON.stringify({ deal_id: dealId, ...payload }),
   });

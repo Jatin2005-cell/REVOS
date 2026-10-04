@@ -10,19 +10,19 @@ app = FastAPI(
     version="0.1.0",
 )
 
-# Allowed origins including active Next.js development ports (3000 & 3001)
+# Trailing slash REMOVED from production URL
 origins = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     "http://localhost:3001",
     "http://127.0.0.1:3001",
-    "https://revos-silk.vercel.app/",  # Production URL
+    "https://revos-silk.vercel.app",  # Fixed: No trailing slash
 ]
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
-    allow_origin_regex=r"http://(localhost|127\.0\.0\.1):(3000|3001|3002)",
+    allow_origin_regex=r"https?://(localhost|127\.0\.0\.1):(3000|3001|3002)",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -39,6 +39,7 @@ def root():
         "docs": "/docs",
         "endpoints": [
             "/api/deals",
+            "/api/deals/at-risk",
             "/api/deals/{id}",
             "/api/risk/top",
             "/api/forecast",
